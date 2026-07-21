@@ -153,6 +153,13 @@ def render_blocks(blocks):
             out.append(f'<div class="pr-note">{esc(b["text"])}</div>')
         elif t == "empty":
             out.append(f'<div class="empty-state"><div class="empty-ic">{CHECK}</div><p>{esc(b["text"])}</p></div>')
+        elif t == "vacancies":
+            label = b.get("label", "")
+            cards = ""
+            for _ in range(int(b.get("count", 1))):
+                cards += ('<div class="staff-card vacant"><div class="staff-photo noimg vac"><span>—</span></div>'
+                          f'<div class="staff-info"><b>Boş</b><span>{esc(label)}</span></div></div>')
+            out.append(f'<div class="staff-grid vac-grid">{cards}</div>')
         elif t == "list":
             title = f'<h3 class="pr-h3">{esc(b["title"])}</h3>' if b.get("title") else ""
             items = "".join(f'<li>{CHECK}<span>{esc(x)}</span></li>' for x in b["items"])

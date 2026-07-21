@@ -337,3 +337,10 @@ footer{background:#07131F;color:#93A6BC;padding:70px 0 30px;border-top:1px solid
   .pr-gallery,.pr-gallery.gal-lg{grid-template-columns:1fr 1fr}
   .pr-lead{font-size:1.08rem!important}
 }
+
+/* vacant management cards */
+.vac-grid{grid-template-columns:repeat(2,1fr);max-width:560px}
+.staff-card.vacant{opacity:.85;border-style:dashed;border-color:#c9d4e0}
+.staff-photo.vac{background:var(--paper-2);display:flex;align-items:center;justify-content:center}
+.staff-photo.vac span{color:var(--mute);font-size:2.4rem;font-family:"Archivo";font-weight:700}
+.staff-card.vacant .staff-info b{color:var(--mute)}
