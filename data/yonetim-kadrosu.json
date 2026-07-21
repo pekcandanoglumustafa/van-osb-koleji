@@ -6,8 +6,10 @@
   "eyebrow": "Okulumuz",
   "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/resadegm-sergadegsadeg-H25wZBkkN9tIK3Id.jpg",
   "blocks": [
-    {"type": "h2", "text": "Müdür Yardımcılarımız"},
-    {"type": "vacancies", "label": "Müdür Yardımcısı", "count": 2},
+    {"type": "image", "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/YD0Eeq404vF5okpN/ekran-resmi-2025-11-19-14.48.55-8EPNecdWkqzUZSm2.png"},
+    {"type": "image", "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/YD0Eeq404vF5okpN/ekran-resmi-2025-11-19-14.53.33-lCPEiT3whlAFeWOb.png"},
+    {"type": "image", "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/YD0Eeq404vF5okpN/ekran-resmi-2025-11-19-14.55.20-GhHbS8TIU08PWlyw.png"},
+    {"type": "image", "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/YD0Eeq404vF5okpN/ekran-resmi-2025-11-19-14.57.15-J1YMeqzqxVYa5rjf.png"},
     {"type": "h2", "text": "Kurumun Organizasyon Şeması"},
     {"type": "tree", "items": [
       "Yönetim Kurulu (Kurucu Yönetim)",
