@@ -1,0 +1,23 @@
+{
+  "slug": "basarilarimiz",
+  "section": "Eğitim ve Akademik",
+  "menu_title": "Başarılarımız",
+  "title": "Başarılarımız",
+  "eyebrow": "Eğitim ve Akademik",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/slide2-YNqMQR0WxWfenkap.jpg",
+  "blocks": [
+    {"type": "p", "text": "Okul sporları müsabakaları başta olmak üzere; akademik, kültürel ve sportif alanlarda öğrencilerimizin elde ettiği başarılar serisi devam ediyor. Bu başarılar, öğrencilerimizin motivasyonunu artırıyor ve okulumuzun başarı kültürünü güçlendiriyor."},
+    {"type": "gallery", "items": [
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251203-wa0004-X6WO0n6C0ZSpRi6s.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,fit=crop/YD0Eeq404vF5okpN/img-20251126-wa0086-1nwJoHgDteQZXwyx.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251203-wa0003-uIQbqyDbZ6kRw6cj.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251128-wa0021-ilpoATQAx6N33vyd.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251202-wa0012-1E8gvnJUUWjvFdJm.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251128-wa0020-h6ltcUPP0IioUNTG.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251128-wa0019-ealS7GYr4HJXpLHe.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251128-wa0018-onQbWgyyyUK6rOB6.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251203-wa0214-1FfmaaRMFuXfr5iT.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251203-wa0213-dxySquU78aO18EbI.jpg"
+    ]}
+  ]
+}

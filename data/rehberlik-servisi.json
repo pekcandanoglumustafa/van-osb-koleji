@@ -1,0 +1,45 @@
+{
+  "slug": "rehberlik-servisi",
+  "section": "Eğitim ve Akademik",
+  "menu_title": "Rehberlik Servisi",
+  "title": "Psikolojik Danışmanlık ve Rehberlik Servisi",
+  "eyebrow": "Eğitim ve Akademik",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/ogrenci2-m7VDQRa7D1uq0vRD.jpg",
+  "blocks": [
+    {"type": "p", "text": "Okulumuz Rehberlik Servisi olarak; öğrencilerimizin kişisel, sosyal ve akademik gelişimlerini desteklemeyi amaçlıyoruz. Güvenli, gizlilik esaslı ve destekleyici bir ortam sunarak, öğrencilerimizin kendilerini tanımalarına, potansiyellerini keşfetmelerine ve sağlıklı kararlar vermelerine rehberlik ediyoruz."},
+    {"type": "h3", "text": "Destek verdiğimiz başlıca alanlar"},
+    {"type": "list", "items": [
+      "Kişisel ve duygusal gelişim",
+      "Sınav kaygısı ve stresle başa çıkma",
+      "Akran ilişkileri ve iletişim becerileri",
+      "Kariyer ve meslek seçimi",
+      "Aile içi iletişim desteği"
+    ]},
+    {"type": "h2", "text": "Rehberlik Servisi İçerikleri"},
+    {"type": "cards", "items": [
+      {"n": "01", "h": "Bireysel Görüşmeler", "p": "Öğrencilerin kişisel, sosyal, duygusal ve akademik sorunlarına yönelik birebir danışmanlık hizmeti verilir."},
+      {"n": "02", "h": "Grupla Psikolojik Danışma", "p": "Benzer konularda desteğe ihtiyaç duyan öğrencilerle grup çalışmaları yapılır (sınav kaygısı, iletişim, öfke kontrolü vb.)."},
+      {"n": "03", "h": "Eğitsel Rehberlik", "p": "Verimli ders çalışma, sınav hazırlığı, zaman yönetimi ve hedef belirleme konularında destek sağlanır."},
+      {"n": "04", "h": "Mesleki Rehberlik", "p": "Öğrencilere meslekleri tanıtmak, ilgi ve yeteneklerine uygun alan seçiminde rehberlik yapmak amaçlanır."},
+      {"n": "05", "h": "Seminer ve Atölyeler", "p": "Öğrencilere ve velilere yönelik yıl boyunca planlı seminer, sunum ve atölye çalışmaları düzenlenir."},
+      {"n": "06", "h": "Kriz Müdahale ve Destek", "p": "Zorlayıcı yaşam olayları sonrası öğrencilere duygusal destek sağlanır (yas, travma, ani değişimler vb.)."}
+    ]},
+    {"type": "h2", "text": "Sıkça Sorulan Sorular"},
+    {"type": "faq", "items": [
+      {"q": "Rehberlik servisine gitmek için bir problemim mi olmalı?", "a": "Hayır. Kendinizi tanımak, bir konuda konuşmak, karar vermek ya da sadece paylaşmak için de görüşebilirsiniz."},
+      {"q": "Görüşmeler gizli midir?", "a": "Evet. Rehber öğretmeninizle yaptığınız görüşmeler gizlidir. Yasal zorunluluklar dışında üçüncü kişilerle paylaşılmaz."},
+      {"q": "Görüşmeler ne kadar sürer?", "a": "Görüşmeler genellikle 20–40 dakika sürer. Gerektiğinde devam görüşmeleri planlanabilir."},
+      {"q": "Ailem öğrenir mi?", "a": "Görüşmelerin içeriği izniniz olmadan paylaşılmaz. Ancak sizin yararınıza olacağı düşünülürse sizinle birlikte paylaşım kararı alınabilir."},
+      {"q": "Hangi konularda başvurabilirim?", "a": "Sınav kaygısı, aile problemleri, arkadaşlık, motivasyon eksikliği, meslek seçimi, öfke ve özgüven sorunları ve daha fazlası için başvurabilirsiniz."}
+    ]},
+    {"type": "h3", "text": "Gizlilik ve Güven İlkesi"},
+    {"type": "list", "items": [
+      "Öğrencilerin izni olmadan hiçbir bilgi üçüncü kişilerle paylaşılmaz.",
+      "Yalnızca öğrencinin veya başkalarının güvenliği söz konusu olduğunda, yasal yükümlülükler çerçevesinde ilgili birimlerle paylaşım yapılabilir.",
+      "Görüşmeler randevu ile, mahremiyeti koruyacak şekilde yapılır.",
+      "Danışma süreci öğrenciye zarar vermeyecek, destekleyici ve etik ilkelere uygun şekilde yürütülür."
+    ]},
+    {"type": "note", "text": "Oda No: Rehberlik Servisi – Zemin Kat · Görüşme Saatleri: Pazartesi–Cuma 09.30–12.00 / 13.00–15.30"},
+    {"type": "lead", "text": "\"Her öğrenci özeldir, her yolculuk bir adımdır.\""}
+  ]
+}

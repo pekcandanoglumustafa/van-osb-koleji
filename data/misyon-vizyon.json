@@ -1,0 +1,31 @@
+{
+  "slug": "misyon-vizyon",
+  "section": "Okulumuz",
+  "menu_title": "Misyon & Vizyon",
+  "title": "Misyon & Vizyonumuz",
+  "eyebrow": "Okulumuz",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/resadegm-sergadegsadeg-H25wZBkkN9tIK3Id.jpg",
+  "blocks": [
+    {"type": "h2", "text": "Misyonumuz"},
+    {"type": "lead", "text": "Geleceğin umudu gençleri;"},
+    {"type": "list", "items": [
+      "Enerjilerine ve yeteneklerine uygun mesleki alanlarda gerekli yeterliliğe sahip,",
+      "Çevresiyle iyi etkileşim kurabilen, değişimden ve ilerlemekten korkmayan,",
+      "Toplumun istek ve ihtiyaçlarına yanıt verebilen,",
+      "Değerlerinden ve geleneklerinden ödün vermeden çağdaş bir bakış açısına sahip,",
+      "İnsani ve manevi değerler noktasında kendini gerçekleştirmiş,",
+      "Disiplinli ve çalışkan bireyler yetiştirip bilim ve teknolojiden aldığımız ışıkla geleceğe hazırlamaktır."
+    ]},
+    {"type": "h2", "text": "Vizyonumuz"},
+    {"type": "lead", "text": "Eğitim ve ilerisi…"},
+    {"type": "list", "items": [
+      "Endüstri ve üretim alanları için nitelikli çalışan istihdamı sağlamak,",
+      "Yetenekli gençleri üniversiteye kazandırmak,",
+      "Proje alanlarında kayda değer başarılar elde etmek,",
+      "Uygulanabilir ve geliştirilebilir ürünlerle endüstriye gereken desteği sağlamak,",
+      "Eğitimde fırsat eşitliliği sağlamak ve öğretimde kalite farkını kaldırmak,",
+      "Şehrimizi ülkemizde mesleki kolej alanında layıkıyla temsil etmek,",
+      "Bu hususlarda bölgemizde lider eğitim yuvası haline gelmektir."
+    ]}
+  ]
+}

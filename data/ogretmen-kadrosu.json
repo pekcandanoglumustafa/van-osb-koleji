@@ -1,0 +1,83 @@
+{
+  "slug": "ogretmen-kadrosu",
+  "section": "Okulumuz",
+  "menu_title": "Öğretmen & Personel Kadrosu",
+  "title": "Öğretmen ve Personel Kadromuz",
+  "eyebrow": "Okulumuz",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/resadegm-sergadegsadeg-H25wZBkkN9tIK3Id.jpg",
+  "intro": "Alanında uzman, dinamik ve öğrenci odaklı öğretmen kadromuz ile idari ve destek ekibimiz; akademik başarıyı ve mesleki gelişimi bir arada yürütüyor.",
+  "staff_groups": [
+    {
+      "title": "Öğretmenlerimiz",
+      "people": [
+        {"name": "Şahin Üzen", "role": "Türk Dili ve Edebiyatı", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=503,fit=crop/YD0Eeq404vF5okpN/sissahiin-uizen-edebiiyat-oigiretmenii-aO8CZRaFvsnLRrgh.JPG"},
+        {"name": "Melike Kom", "role": "Türk Dili ve Edebiyatı", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=499,fit=crop/YD0Eeq404vF5okpN/meliike-kom--tuirk-diilii-ve-edebiiyeti-oigiretmenii-U9GQkMtsG05Gq2Uu.jpg"},
+        {"name": "Murat Minaz", "role": "Matematik", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=484,fit=crop/YD0Eeq404vF5okpN/murat-miinaz-matematiik-oigiretmenii-6NG6obzIE6hOEYZP.JPG"},
+        {"name": "Önder Kılıç", "role": "Fizik", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=534,fit=crop/YD0Eeq404vF5okpN/oinder-kiliciss---fiiziik-oigiretmenii-gmPfIFguBpn8BJFk.jpg"},
+        {"name": "Şehadet Yıldız Dağhan", "role": "Biyoloji", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=523,fit=crop/YD0Eeq404vF5okpN/sissehadet-yildiz-dagihan-biiyolojii-oigiretmenii-qhYk73FY28q434b6.JPG"},
+        {"name": "Aylin Tuncil", "role": "Tarih", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=486,fit=crop/YD0Eeq404vF5okpN/diivan-tunciil-tariih-oigiretmenii-d15ooxlZYyTI7EfW.JPG"},
+        {"name": "Cennet Keleşoğlu", "role": "Coğrafya", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=462,fit=crop/YD0Eeq404vF5okpN/cennet-kelesissogilu-cogirafya-oigiretmenii-2C6mgnwAzqAt2rcX.JPG"},
+        {"name": "Zeynep Göksu Taşköprülü", "role": "Matematik", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=432,fit=crop/YD0Eeq404vF5okpN/zeynep-goiksu-tasisskoipruilui-matematiik-oigiretmenii-jBpxsVyI070v81Z3.JPG"},
+        {"name": "Tuba Keleş", "role": "Tarih", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=431,fit=crop/YD0Eeq404vF5okpN/tuba-kelesiss-tariih-oigiretmenii-63p4kiksSLt5BtuX.JPG"},
+        {"name": "Nilüfer Deniz Kanat", "role": "Türk Dili ve Edebiyatı", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=473,fit=crop/YD0Eeq404vF5okpN/niiluifer-kanat-edebiiyat-oigiretmenii-LpHCzWfXDApBdCVg.JPG"},
+        {"name": "Gülnaz Özdemir", "role": "Matematik", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=470,fit=crop/YD0Eeq404vF5okpN/guilnaz-oizdemiir-matematiik-oigiretmenii-1eK1O4UVZwIiaNwr.JPG"},
+        {"name": "Şakir Özkurnaz", "role": "Matematik", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=498,fit=crop/YD0Eeq404vF5okpN/sissakiir-oizkurnaz-matematiik-oigiretmenii-L0FjjnqvfcD6RAF3.jpg"},
+        {"name": "Orhan Aydın", "role": "Fizik", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=507,fit=crop/YD0Eeq404vF5okpN/orhan-aydin-fiiziik-oigiretmenii-KCE5g522VimfGGdo.JPG"},
+        {"name": "Uğur Karataş", "role": "Biyoloji", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=488,fit=crop/YD0Eeq404vF5okpN/ugiur-karatasiss-biiyolojii-oigiretmenii-tYwKwzpbalPimKDo.JPG"},
+        {"name": "Göksel Erginyürek", "role": "Tarih", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=466,fit=crop/YD0Eeq404vF5okpN/goiksel-engiinyuirek-tariih-oigiretmenii-H5dpfqz4ZmHtdCEE.JPG"},
+        {"name": "İlayda Uçak", "role": "Coğrafya", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=423,fit=crop/YD0Eeq404vF5okpN/iilayda-ucissak-cogirafya-oigiretmenii-uUMZPzV0POUMHobj.JPG"},
+        {"name": "Veysel Ece", "role": "Görsel Sanatlar", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=491,fit=crop/YD0Eeq404vF5okpN/veysel-ece-goirsel-sanatlar-oigiretmenii-O0uBcz4aHUwhktLh.JPG"},
+        {"name": "Ümit Uçar", "role": "Müzik", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=471,fit=crop/YD0Eeq404vF5okpN/uimiit-ucissar-muiziik-oigiretmenii-qKeE5QnncCGpkx2r.JPG"},
+        {"name": "Narin Keve", "role": "Beden Eğitimi", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=480,fit=crop/YD0Eeq404vF5okpN/nariin-keve-beden-egiiitiimii-oigiretmenii-43D30FzeiiFEhR8Q.JPG"},
+        {"name": "Muhammed Nuri Keleş", "role": "Kimya", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=465,fit=crop/YD0Eeq404vF5okpN/muhammed-nurii-kelesiss-kiimya-oigiretmenii-Tbfx4B6kwMwG0lny.JPG"},
+        {"name": "Nisa Tuğrul", "role": "Elektrik-Elektronik Teknolojisi", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=478,fit=crop/YD0Eeq404vF5okpN/niisa-tugirul-elektriik-elektroniik-teknolojiisii-oigiretmenii-OSikEEUlw7NqXX6B.JPG"},
+        {"name": "Halil İbrahim Tuncil", "role": "Elektrik-Elektronik Teknolojisi", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=472,fit=crop/YD0Eeq404vF5okpN/haliil-iibrahiim-tunciil-elektriik-elektroniik-teknolojiisii-WkB8TJNJ9KOa1D6m.JPG"},
+        {"name": "Tubanur Aldemir", "role": "Bilişim Teknolojileri", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=482,fit=crop/YD0Eeq404vF5okpN/tubanur-aldemiir-biiliisissiim-teknolojiilerii-oigiretmenii-rm7KtKoTV4Nz0Uyd.JPG"},
+        {"name": "Beril Yeşilova", "role": "Bilişim Teknolojileri", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=500,fit=crop/YD0Eeq404vF5okpN/beriil-yesissiilova-biiliisissiim-teknolojiilerii-oigiretmenii-iX96rua3PUdiRvH0.JPG"},
+        {"name": "Ebubekir Kadak", "role": "Kimya", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=412,fit=crop/YD0Eeq404vF5okpN/ebubekiir-kadak-kiimya-oigiretmenii-Q7Wmrx6QjtMX8GJy.JPG"},
+        {"name": "Serhat Çırağ", "role": "Elektrik-Elektronik Teknolojisi", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=435,fit=crop/YD0Eeq404vF5okpN/serhat-cissiragi-elektriik-elektroniik-teknolojiisii-oigiretmenii-gFtmpr6CfFnFBTta.JPG"},
+        {"name": "Saadet Aslan", "role": "Gıda Teknolojisi", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=432,fit=crop/YD0Eeq404vF5okpN/saadet-aslan-gida-teknolojiisii-oigiretmenii-dwSyEQtRMGa8CVxp.JPG"},
+        {"name": "Nisa Kamiloğlu", "role": "Bilişim Teknolojileri", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=435,fit=crop/YD0Eeq404vF5okpN/niisa-kamiilogilu-biiliisissiim-teknolojiilerii-oigiretmenii-vaIokaiSiRJjTbSL.JPG"},
+        {"name": "Ali Hazan", "role": "Beden Eğitimi", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=450,fit=crop/YD0Eeq404vF5okpN/alii-hazan-beden-egiiitiimii-oigiretmenii-KPwwJ6Y8mrU5fSxK.JPG"},
+        {"name": "Berat Demirkıran", "role": "Kimya", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=425,fit=crop/YD0Eeq404vF5okpN/berat-demiirkiran-kiimya-oigiretmenii-cRHnt6N5m1YdKKhS.JPG"},
+        {"name": "Abdullah Esen", "role": "Elektrik-Elektronik Teknolojisi", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1024,fit=crop/YD0Eeq404vF5okpN/abdullah-esen-VwwDbq5ULgYbMAqy.jpg"},
+        {"name": "Tayfun Yıldız", "role": "Elektrik-Elektronik Teknolojisi", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1478,fit=crop/YD0Eeq404vF5okpN/tayfun-yildiz-elektriik-elektroniik-teknolojiisii-oigiretmenii-81flmgirT98C9lpm.jpg"},
+        {"name": "Hamdi Sönmez", "role": "Gıda Teknolojisi", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=435,fit=crop/YD0Eeq404vF5okpN/hamdii-soinmez-gida-teknolojiisii-oigiretmenii-mMCCJTN7RNQBeobN.JPG"},
+        {"name": "Murat Emre Ateş", "role": "Bilişim Teknolojileri", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=432,fit=crop/YD0Eeq404vF5okpN/murat-emre-atea-pycBUUT29GXWVl6Q.jpg"},
+        {"name": "Mehmet Salih Uslu", "role": "Bilişim Teknolojileri", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=425,fit=crop/YD0Eeq404vF5okpN/m.-saliih-uslu-biiliisissiim-teknolojiilerii-oigiretmenii-KLE97AnO2HZ5Y9SI.JPG"},
+        {"name": "Hülya Tatar", "role": "Gıda Teknolojisi", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=466,fit=crop/YD0Eeq404vF5okpN/huilya-tatar-gida-teknolojiisii-oigiretmenii-H87XO2ZYpCGwHXvN.JPG"},
+        {"name": "Gülsüm Duman", "role": "Türk Dili ve Edebiyatı", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=487,fit=crop/YD0Eeq404vF5okpN/guilsuim-duman-edebiiyat-oigiretmenii-8lxjEFB5fIaP1cS9.JPG"},
+        {"name": "Kübra Küçükyol", "role": "Felsefe", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=468,fit=crop/YD0Eeq404vF5okpN/kuibra-kuicissuikyol-felsefe-oigiretmenii-5psSffGvugptQ1XF.JPG"},
+        {"name": "Esra Kılınç", "role": "Türk Dili ve Edebiyatı", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=487,fit=crop/YD0Eeq404vF5okpN/esra-hana--m-edb.-jMQQ5i3GAPEKzTtj.jpg"},
+        {"name": "Merve Kara", "role": "Matematik", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=529,fit=crop/YD0Eeq404vF5okpN/merve-hana--m-01TFqRGqkUbJFpQA.jpg"},
+        {"name": "Mustafa Arı", "role": "İngilizce", "img": ""},
+        {"name": "Esra Sönmezler", "role": "İngilizce", "img": ""},
+        {"name": "Veysel Korkaç", "role": "İngilizce", "img": ""},
+        {"name": "Büşra Gülseven Aydın", "role": "Din Kültürü ve Ahlak Bilgisi", "img": ""},
+        {"name": "Furkan Aydın", "role": "Din Kültürü ve Ahlak Bilgisi", "img": ""},
+        {"name": "Şimal Mert", "role": "Psikolojik Danışman ve Rehberlik", "img": ""},
+        {"name": "Recep Çapık", "role": "Psikolojik Danışman ve Rehberlik", "img": ""}
+      ]
+    },
+    {
+      "title": "İdari ve Mali İşler",
+      "people": [
+        {"name": "Mizgin Bor", "role": "Danışma Memuru", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=455,fit=crop/YD0Eeq404vF5okpN/mizgiin-bor-danisissma-memuru-aqkndw9iwo1YkDNr.JPG"},
+        {"name": "Meltem Özen Gültepe", "role": "Muhasebe", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=437,fit=crop/YD0Eeq404vF5okpN/meltem-oizen-guiltepe-muhasebe-memuru-4TXmNyUBW6wLKOn1.jpg"},
+        {"name": "Hasan Turgut", "role": "Danışma Personeli", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=435,fit=crop/YD0Eeq404vF5okpN/photo-2025-11-20-11-53-34-DzDDvT0zHBn82o1N.jpg"}
+      ]
+    },
+    {
+      "title": "Yardımcı Hizmetler",
+      "people": [
+        {"name": "Yusuf Tunç", "role": "Kat Görevlisi", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=405,fit=crop/YD0Eeq404vF5okpN/yusuf-tunciss-kat-goirevliisii-Dvfa9AbMG6fFvC15.JPG"},
+        {"name": "Nuri Yiğit", "role": "Kat Görevlisi", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=418,fit=crop/YD0Eeq404vF5okpN/nurii-yiigiiit-kat-goirevliisii-Au1XMmxJSCqumVqz.JPG"},
+        {"name": "Reyhan Öztekin", "role": "Kat Görevlisi", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=405,fit=crop/YD0Eeq404vF5okpN/reyhan-oiztekiin-kat-goirevliisii-Yx1VBiso02qToPmX.JPG"},
+        {"name": "Seyfettin Gültepe", "role": "Kat Görevlisi", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=435,fit=crop/YD0Eeq404vF5okpN/seyfettiin-guiltepe-kat-goirevliisii-UhEojLAGNa5UNso7.JPG"},
+        {"name": "Gülden Kaban", "role": "Hizmet Destek Personeli", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=435,fit=crop/YD0Eeq404vF5okpN/photo-2025-11-20-11-52-17-PEmWcAjb9i1gfUa6.jpg"},
+        {"name": "Mahsun Bakay", "role": "Güvenlik Görevlisi", "img": ""},
+        {"name": "Fehmi Elitaş", "role": "Şoför", "img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=388,fit=crop/YD0Eeq404vF5okpN/fehmi-eladegtaa-AyZOL17V29XZ31CT.jpg"}
+      ]
+    }
+  ]
+}

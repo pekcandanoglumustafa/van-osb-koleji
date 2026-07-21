@@ -1,39 +1,30 @@
 # Van OSB Mesleki ve Teknik Koleji — Web Sitesi
 
-Statik, çok sayfalı web sitesi. Kurulum gerektirmez (build yok), doğrudan Vercel'e yüklenir.
+Statik, çok sayfalı web sitesi (build gerektirmez). Eski ozelvanosbkoleji.com sitesinin tüm sayfaları yeni tasarımla taşınmıştır.
 
-## Sayfalar
+## Yapı
 - `index.html` — Anasayfa
-- `okulumuz.html` — Tarihçe, misyon-vizyon, değerler, donanım
-- `bolumler.html` — 4 bölüm detayı (Bilişim, Elektrik-Elektronik, Kimya, Gıda)
-- `galeri.html` — Fotoğraf galerisi
-- `iletisim.html` — İletişim + başvuru formu + harita
-- `404.html` — Hata sayfası
+- `okulumuz.html` (genel) → tarihce, misyon-vizyon, yonetim-kadrosu, kurum-kulturu, kurumsal-degerler, fiziksel-donanim, ogretmen-kadrosu, iletisim
+- `bolumler.html` (genel) → bilisim-teknolojileri, elektrik-elektronik, kimya-teknolojisi, gida-teknolojisi
+- `egitim-akademik.html` (genel) → hedeflerimiz, basarilarimiz, rehberlik-servisi, zumre-calismalari, akademik-takvim
+- `projelerimiz.html` (genel) → tubitak-erasmus-ab, sosyal-sorumluluk, staj-isletme-egitimi, ar-ge-calismalari
+- `galeri.html` (genel) → etkinliklerimiz, okulumuzdan-kareler
+- `duyurular.html` (genel) → duyuru, dokumanlar, haftalik-yemek-listesi
+- `iletisim.html`, `404.html`
+- `style.css`, `app.js` — paylaşılan stil ve script
+- `data/*.json` — sayfa içerikleri (kaynak)
+- `build.py` — tüm HTML'i data/ ve şablondan üreten jeneratör
 
-## Vercel'e Deploy (2 yol)
+## İçeriği güncellemek
+1. İlgili `data/<sayfa>.json` dosyasını düzenle.
+2. `python3 build.py` çalıştır → HTML yeniden üretilir.
+3. GitHub'a push et → Vercel otomatik deploy eder.
 
-### Yol 1 — En hızlı (sürükle-bırak)
-1. https://vercel.com adresine gir, giriş yap.
-2. "Add New… → Project" yerine, "Deploy" ekranında bu klasörün **içeriğini** (index.html dahil tüm dosyalar) sürükle bırak.
-3. Bitince Vercel bir `.vercel.app` adresi verir.
+## Vercel
+GitHub reposu Vercel'e bağlı olduğu için `main`'e her push otomatik yayınlanır.
+Framework: **Other** (saf statik). `vercel.json` ile temiz URL'ler aktif.
 
-### Yol 2 — GitHub + Vercel (senin normal akışın)
-1. Bu klasörü bir GitHub reposuna push et:
-   ```
-   git init
-   git add .
-   git commit -m "Van OSB Koleji sitesi"
-   git branch -M main
-   git remote add origin https://github.com/KULLANICI/van-osb-koleji.git
-   git push -u origin main
-   ```
-2. Vercel → "Add New… → Project" → repoyu seç → "Deploy".
-3. Framework: **Other** (build ayarı gerekmez, statik).
-
-### Kendi alan adın (ozelvanosbkoleji.com)
-Vercel → Project → Settings → Domains → alan adını ekle, DNS kayıtlarını yönlendir.
-
-## Yapılacaklar (senin düzenlemen için)
-- İletişim bilgileri: `iletisim.html` ve `footer.js` içindeki telefon / e-posta / adres placeholder'ları.
-- Başvuru formunu canlıya bağlamak için Formspree veya Web3Forms (ücretsiz) ekleyebiliriz.
-- Görseller şu an mevcut sitenin CDN'inden (zyrosite) çekiliyor; istersen kendi klasörüne indirip yerelleştiririz.
+## Yapılacaklar
+- İletişim telefon/e-posta placeholder'ları (`build.py` içindeki `iletisim_page`).
+- Başvuru formunu Web3Forms/Formspree ile canlıya bağlama.
+- Öğretmen kadrosunda fotoğrafı olmayan birkaç kişi (İngilizce/Din Kültürü öğretmenleri) baş harflerle gösteriliyor; fotoğraf eklenebilir.

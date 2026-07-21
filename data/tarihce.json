@@ -1,0 +1,16 @@
+{
+  "slug": "tarihce",
+  "section": "Okulumuz",
+  "menu_title": "Tarihçe",
+  "title": "Tarihçemiz",
+  "eyebrow": "Okulumuz",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/resadegm-sergadegsadeg-H25wZBkkN9tIK3Id.jpg",
+  "blocks": [
+    {"type": "image", "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,fit=crop/YD0Eeq404vF5okpN/ogrenci2-m7VDQRa7D1uq0vRD.jpg"},
+    {"type": "p", "text": "Özel Van OSB Mesleki ve Teknik Anadolu Lisesi, 2018 yılında Van Organize Sanayi Bölgesi'nin kalbinde, bölgenin nitelikli teknik insan gücü ihtiyacına cevap vermek amacıyla kuruldu."},
+    {"type": "p", "text": "Okulumuzun kuruluşunda, Van OSB'de faaliyet gösteren vizyoner iş insanlarının ortak inancı ve desteği belirleyici oldu. Eğitimi üretimle birleştirmek, gençlere sadece meslek değil gelecek kazandırmak düşüncesiyle yola çıkıldı. Bu yönüyle okulumuz, sanayiyle eğitimin el ele verdiği örnek bir model olarak bölgeye yeni bir soluk getirdi."},
+    {"type": "p", "text": "Kurulduğu günden bu yana mesleki eğitimde kalite ve yeniliğin adresi olmayı hedefleyen okulumuz; modern donanımlı atölyeleri, dinamik öğretmen kadrosu ve güçlü sanayi iş birlikleriyle öğrencilerini sadece mezun değil, üretim odaklı bireyler olarak yetiştiriyor. Okulumuz, her yıl artan başarısıyla hem Van'ın hem de Türkiye'nin geleceğine katkı sunmaya devam ediyor."},
+    {"type": "p", "text": "Bugün Özel Van OSB Mesleki ve Teknik Anadolu Lisesi; eğitim, üretim ve istihdamı aynı çatı altında buluşturan çağdaş, yenilikçi ve örnek bir kurum kimliğiyle yoluna emin adımlarla devam ediyor."},
+    {"type": "lead", "text": "Gücünü birlikten, vizyonunu üretimden, ilhamını gençlerden alan okulumuz, yarınlara güvenle yürüyor."}
+  ]
+}

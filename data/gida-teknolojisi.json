@@ -1,0 +1,16 @@
+{
+  "slug": "gida-teknolojisi",
+  "section": "Bölümler",
+  "menu_title": "Gıda Teknolojisi",
+  "title": "Gıda Teknolojisi Bölümü",
+  "eyebrow": "Bölümler · GT-04",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.04.43-trO1cqp13L7Ecfuq.jpeg",
+  "blocks": [
+    {"type": "image", "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.04.43-trO1cqp13L7Ecfuq.jpeg"},
+    {"type": "p", "text": "Okulumuzda görev yapan Gıda Mühendisi, geleceğin gıda profesyonellerini yalnızca bilgiyle değil, bilinç ve sorumluluk duygusuyla da yetiştirir. Gıda sektörü, hijyen ve kalite kadar insana değer vermeyi gerektirir. Bu anlayışla öğrencilerimize hem bilimsel hem de insani bir bakış açısı kazandırıyoruz."},
+    {"type": "p", "text": "Okulumuzun gıda alanı; modern laboratuvarları, uygulama mutfakları ve üretim atölyeleriyle uygulamalı eğitimin öncüsüdür. Öğrencilerimiz; hijyen, kalite kontrol, besin güvenliği ve üretim teknolojisi konularında teorik bilgilerini pratiğe dönüştürürken, aynı zamanda ahlaki ve çevresel sorumluluk bilinciyle yetişir."},
+    {"type": "p", "text": "Bir gıda mühendisi; öğrencilere bilimsel düşünme alışkanlığı kazandırır, gıda üretiminde hijyen ve kalite kontrolü uygulatır, sağlıklı ve güvenli üretim konusunda farkındalık oluşturur. Ayrıca gıda israfını önleme ve geri dönüşüm bilinci aşılar. Her öğrenciye \"Ben yapabilirim\" duygusunu kazandırmak en önemli hedefimizdir."},
+    {"type": "p", "text": "Okulumuzda her öğrenci sadece bir meslek değil, bir yaşam disiplini öğrenir. \"Emeğe saygı, bilime güven, doğaya sevgi\" ilkesiyle çalışan öğretmenlerimiz, öğrencilerimizin hayatına dokunur. Üretilen her ürün bilgiyle, emekle ve sevgiyle hazırlanır; her atölye bir öğrenme alanı, her ürün bir başarı hikâyesidir."},
+    {"type": "tags", "items": ["Gıda Güvenliği", "Hijyen & Kalite Kontrol", "Mikrobiyolojik Analiz", "Üretim Teknolojisi", "Uygulama Mutfağı"]}
+  ]
+}

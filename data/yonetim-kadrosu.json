@@ -1,0 +1,33 @@
+{
+  "slug": "yonetim-kadrosu",
+  "section": "Okulumuz",
+  "menu_title": "Yönetim Kadromuz",
+  "title": "Yönetim Kadromuz",
+  "eyebrow": "Okulumuz",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/resadegm-sergadegsadeg-H25wZBkkN9tIK3Id.jpg",
+  "blocks": [
+    {"type": "image", "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=727,fit=crop/YD0Eeq404vF5okpN/ekran-resmi-2025-11-19-14.53.33-lCPEiT3whlAFeWOb.png"},
+    {"type": "image", "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=725,fit=crop/YD0Eeq404vF5okpN/ekran-resmi-2025-11-19-14.55.20-GhHbS8TIU08PWlyw.png"},
+    {"type": "h2", "text": "Kurumun Organizasyon Şeması"},
+    {"type": "tree", "items": [
+      "Yönetim Kurulu (Kurucu Yönetim)",
+      "Eğitim Genel Koordinatörü (Kurumsal Yönetim)",
+      "Okul Müdürü (Eğitim Yönetimi)",
+      "Müdür Yardımcıları — Akademik İşler / Disiplin ve Rehberlik / Atölye ve Alanlar",
+      "Öğretmenler — Meslek Dersleri, Kültür Dersleri, Rehberlik Servisi",
+      "Öğrenciler (Kurumun Hizmet Odağı)",
+      "Destek Birimler — Muhasebe/Finans, Sekreterya/İdari Büro, Temizlik ve Destek Personeli"
+    ]},
+    {"type": "note", "text": "Eğitim Genel Koordinatörü, Yönetim Kurulu ile Okul İdaresi arasında köprü görevi görür."},
+    {"type": "h2", "text": "Kurum İş Akışı Şeması"},
+    {"type": "flow", "items": [
+      "Yönetim Kurulu (Kurucu Yönetim) — Stratejik kararlar, bütçe, yatırım, kurum politikası",
+      "Eğitim Genel Koordinatörü (Kurumsal Yönetim) — Yönetim kararlarını uygular, okulun genel işleyişini denetler",
+      "Okul Müdürü (Eğitim Yönetimi) — Eğitim, disiplin, personel yönetimi, mevzuat sorumlusu",
+      "Müdür Yardımcıları — Kendi alanlarındaki uygulamaları yönetir",
+      "Öğretmenler — Eğitim, ölçme değerlendirme, öğrenci takibi, raporlama",
+      "Sekreterya & Muhasebe — Okul müdürlüğüne bağlı çalışır, koordinatör ve yönetim kuruluna rapor verir",
+      "Temizlik Personeli — İdari ekibe bağlı, düzenli kontrol ve raporlama sistemiyle çalışır"
+    ]}
+  ]
+}

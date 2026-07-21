@@ -1,0 +1,15 @@
+{
+  "slug": "tubitak-erasmus-ab",
+  "section": "Projeler",
+  "menu_title": "TÜBİTAK – Erasmus – AB Projeleri",
+  "title": "TÜBİTAK – Erasmus – AB Projeleri",
+  "eyebrow": "Projelerimiz",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/lab3-Awv8glR3l0S1xnwq.jpg",
+  "blocks": [
+    {"type": "h3", "text": "TÜBİTAK Liseler Arası Proje Yarışmasına Güçlü Katılım"},
+    {"type": "p", "text": "Okulumuz OSB Mesleki ve Teknik Lisesi, bu yıl Liselere Yönelik TÜBİTAK Proje Yarışmasına 25 proje ile katılım sağlayarak araştırma, üretim ve yenilik odaklı eğitim anlayışını somut bir şekilde ortaya koymuştur. Bu katılım; okulumuzda proje temelli öğrenmenin, bilimsel düşünme kültürünün ve öğrenciyi merkeze alan eğitim yaklaşımının önemli bir göstergesidir."},
+    {"type": "p", "text": "Hazırlanan projeler; öğrencilerimizin problem çözme becerilerini geliştirmeyi, analitik ve eleştirel düşünme yetkinliklerini artırmayı, mesleki alan bilgilerini bilimsel yöntemlerle birleştirmelerini ve özgün fikirler üretmelerini hedeflemiştir. Süreç boyunca öğrencilerimiz; araştırma yapma, veri toplama, raporlama, sunum hazırlama ve ekip çalışması gibi akademik ve mesleki açıdan son derece önemli kazanımlar elde etmiştir."},
+    {"type": "p", "text": "OSB Mesleki ve Teknik Lisesi olarak TÜBİTAK proje çalışmalarıyla yalnızca yarışmaya katılım değil; öğrencilerimizin özgüven kazandığı, sorumluluk aldığı, üreten ve düşünen bireyler olarak yetiştiği bir eğitim ortamı oluşturmayı amaçlıyoruz. Bu çalışmalar, öğrencilerimizin üniversite hayatına, iş dünyasına ve geleceğin mesleklerine daha donanımlı şekilde hazırlanmalarına önemli katkı sağlamaktadır."},
+    {"type": "p", "text": "Bilimsel merakı teşvik eden, araştırmayı ve üretimi merkeze alan bu süreçte emeği geçen tüm öğrencilerimizi ve danışman öğretmenlerimizi tebrik ediyor; proje kültürünü okulumuzda daha da güçlendirmeye kararlılıkla devam ediyoruz."}
+  ]
+}

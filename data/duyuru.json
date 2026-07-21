@@ -1,0 +1,11 @@
+{
+  "slug": "duyuru",
+  "section": "Duyurular",
+  "menu_title": "Duyuru",
+  "title": "Duyurular",
+  "eyebrow": "Duyurular",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/resadegm-sergadegsadeg-H25wZBkkN9tIK3Id.jpg",
+  "blocks": [
+    {"type": "empty", "text": "Güncel duyurularımız yakında burada yayımlanacaktır. Bizi takipte kalın."}
+  ]
+}

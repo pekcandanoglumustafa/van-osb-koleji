@@ -1,0 +1,23 @@
+{
+  "slug": "kurumsal-degerler",
+  "section": "Okulumuz",
+  "menu_title": "Kurumsal Değerlerimiz",
+  "title": "Kurumsal Değerlerimiz",
+  "eyebrow": "Okulumuz",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/img-20251126-wa0019-EAR52NjTWrUoGGkI.jpg",
+  "blocks": [
+    {"type": "p", "text": "Kurumumuzun kimliği, mesleki ve teknik eğitimin ruhuyla yoğrulmuş ortak değerlerimiz üzerine kuruludur. Bu değerler, yalnızca söylem değil; her gün atölyede, sınıfta, laboratuvarda davranışla yaşatılan ilkelerimizdir."},
+    {"type": "cards", "items": [
+      {"n": "01", "h": "Üretkenlik", "p": "Mesleki eğitimin doğasında üretmek vardır. Öğrencilerimizin bilgi, beceri ve emeğiyle değer oluşturmalarını destekleriz."},
+      {"n": "02", "h": "Kalite ve Disiplin", "p": "Her işin bir standardı olduğuna inanırız. Atölyede, derste, projede ya da yönetimde kalite ve disiplin vazgeçilmezimizdir."},
+      {"n": "03", "h": "Güven ve Dürüstlük", "p": "Şeffaf, açık ve güvenilir bir eğitim ortamı kurarız. Sözümüzle eylemimiz arasındaki uyum kurumun en güçlü sermayesidir."},
+      {"n": "04", "h": "Adalet", "p": "Herkese eşit fırsat sunar, hakkaniyeti korur, emekle elde edilen her başarının değerini biliriz."},
+      {"n": "05", "h": "Sorumluluk Bilinci", "p": "Her öğrencimizin ve çalışanımızın kendine, kurumuna ve ülkesine karşı sorumluluk taşımasını bekleriz."},
+      {"n": "06", "h": "İş Birliği ve Takım Ruhu", "p": "Üretim tek başına değil, birlikte olur. Yönetim, öğretmen, veli ve öğrenci aynı hedefe inandığında başarı kalıcı hale gelir."},
+      {"n": "07", "h": "Yenilikçilik", "p": "Değişen teknolojiye uyum sağlayan, yenilikleri cesaretle deneyen bir okuluz. Mesleki eğitimde öncü olmayı hedefleriz."},
+      {"n": "08", "h": "Sürekli Gelişim", "p": "Öğrenciden yönetime kadar herkesin öğrenmeye ve kendini yenilemeye açık olması kurumsal büyümenin temelidir."},
+      {"n": "09", "h": "Saygı ve Empati", "p": "İnsana, emeğe, farklı fikirlere ve kültürlere saygı duyarız. Her bireyin değerli olduğuna inanırız."},
+      {"n": "10", "h": "Vatan Sevgisi ve Topluma Katkı", "p": "Mesleğini iyi yapan her bireyin ülkesine hizmet ettiğini biliriz. Üreten, düşünen, ahlaklı gençler yetiştirmek en büyük idealimizdir."}
+    ]}
+  ]
+}

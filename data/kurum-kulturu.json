@@ -1,0 +1,23 @@
+{
+  "slug": "kurum-kulturu",
+  "section": "Okulumuz",
+  "menu_title": "Kurum Kültürümüz",
+  "title": "Kurum Kültürümüz",
+  "eyebrow": "Okulumuz",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.06.40-UyqITqKxlGCZNpUU.jpeg",
+  "blocks": [
+    {"type": "p", "text": "Özel Van OSB Mesleki ve Teknik Anadolu Lisesi, mesleki eğitimi sadece bir diploma süreci değil; üretimin, emeğin, bilginin ve ahlakın birleştiği bir yaşam kültürü olarak görür."},
+    {"type": "p", "text": "Bizim için okul; öğrencinin sadece bilgi aldığı değil, iş hayatına, üretime ve topluma hazırlanırken karakter kazandığı bir atölyedir."},
+    {"type": "h3", "text": "Kurum kültürümüzün temeli"},
+    {"type": "list", "items": ["Güven", "Adalet", "Birliktelik", "Sorumluluk", "Sürekli gelişim ilkelerine dayanır."]},
+    {"type": "p", "text": "Her bölümümüz – bilişimden elektroniğe, kimyadan gıdaya kadar – kendi alanında yenilikçi, üretken ve iş disiplinine sahip bireyler yetiştirmeyi hedefler. Mesleki eğitimde kaliteyi artırmak için akademik bilgiyle pratik beceriyi bir arada yürütürüz."},
+    {"type": "p", "text": "Biz, öğrencilerimizin yalnızca sınavlara değil, hayata ve işe hazır bireyler olarak yetişmeleri gerektiğine inanırız. Bu nedenle okulumuzda;"},
+    {"type": "list", "items": [
+      "Öğretmen, yönetim ve veli bir ekip olarak çalışır,",
+      "Her birey okulun geleceğinde pay sahibi olur,",
+      "Farklı fikirler saygıyla karşılanır,",
+      "Başarı, dayanışma ve ortak çabayla elde edilir."
+    ]},
+    {"type": "p", "text": "Mesleki ve teknik eğitimin saygınlığını yükseltmek, üretimi bilgiyle, bilgiyi ahlakla birleştirmek bizim kültürümüzün özüdür. Kökleri mesleki gelenekte, yönü çağdaş dünyada olan bir anlayışla; öğrenmeye, üretmeye ve geliştirmeye devam ediyoruz."}
+  ]
+}

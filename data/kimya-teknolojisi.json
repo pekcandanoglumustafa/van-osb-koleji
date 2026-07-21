@@ -1,0 +1,17 @@
+{
+  "slug": "kimya-teknolojisi",
+  "section": "Bölümler",
+  "menu_title": "Kimya Teknolojisi",
+  "title": "Kimya Teknolojisi Bölümü",
+  "eyebrow": "Bölümler · KT-03",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/labsiyah-YD0EQRWPP7TZwXgB.jpg",
+  "blocks": [
+    {"type": "image", "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.03.11-9TYjnn4Lc1o1INCl.jpeg"},
+    {"type": "p", "text": "Özel Van OSB Mesleki ve Teknik Anadolu Lisesi olarak, bilimin rehberliğinde geleceğe yön veriyoruz. Kimya Teknolojisi Alanımız; modern donanımlı laboratuvarları ve uygulamaya dayalı üretim atölyeleriyle öğrencilerini hem sektöre hem de bilime kazandırmaktadır."},
+    {"type": "p", "text": "Laboratuvarlarımız; analitik kimyadan kozmetik üretimine kadar geniş bir yelpazede eğitim ve Ar-Ge çalışmalarına imkân tanıyan, endüstri standartlarında profesyonel ortamlardır. Burada öğrencilerimiz yalnızca teorik bilgiyle değil, uygulama ve üretim deneyimiyle de gelişim gösterir."},
+    {"type": "p", "text": "Okulumuzda doğal sabunlar, kremler, losyonlar, oda kokuları ve kişisel bakım ürünleri; hijyenik koşullarda, doğal içeriklerle ve bilimsel süreçlere uygun biçimde üretilmektedir."},
+    {"type": "p", "text": "Amacımız, yalnızca mesleki beceri kazandırmak değil; araştıran, üreten, yenilikçi bireyler yetiştirmektir. Biz bilimi, hayata dokunan bir sanat olarak görüyor ve \"Eğitimle Üretim, Üretimle Gelecek\" mottosuyla yolumuza devam ediyoruz."},
+    {"type": "lead", "text": "Bilimin estetikle buluştuğu yerdeyiz — geleceğin kimyagerleri burada yetişiyor!"},
+    {"type": "tags", "items": ["Analitik Kimya", "Kozmetik Üretimi", "Laboratuvar Analizleri", "Kalite Kontrol", "Ar-Ge"]}
+  ]
+}

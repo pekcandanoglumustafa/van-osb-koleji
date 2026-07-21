@@ -1,0 +1,36 @@
+{
+  "slug": "sosyal-sorumluluk",
+  "section": "Projeler",
+  "menu_title": "Sosyal Sorumluluk",
+  "title": "Sosyal Sorumluluk Projeleri",
+  "eyebrow": "Projelerimiz",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/ogrenci4-Yle4gwRoPLcZ9Gny.jpg",
+  "blocks": [
+    {"type": "p", "text": "Eğitim kurumları yalnızca akademik başarı üreten yapılar değil; aynı zamanda topluma karşı sorumluluk taşıyan, bireyleri sosyal duyarlılık, etik değerler ve gönüllülük bilinciyle yetiştiren kurumlardır. Okulumuz, sosyal sorumluluk projeleri aracılığıyla öğrencilerin empati kurabilen, çözüm üretebilen ve yaşadığı çevreye katkı sunan bireyler olarak yetişmesini hedeflemektedir."},
+    {"type": "h3", "text": "Sosyal Sorumluluk Anlayışımız"},
+    {"type": "list", "items": [
+      "Toplumsal faydayı merkeze alma",
+      "Gönüllülük esaslı katılım",
+      "Sürdürülebilirlik",
+      "Yerel ihtiyaçlara duyarlılık",
+      "Öğrenci merkezli aktif öğrenme"
+    ]},
+    {"type": "h2", "text": "Proje Alanları ve Örnek Çalışmalar"},
+    {"type": "cards", "items": [
+      {"n": "01", "h": "Eğitim ve Fırsat Eşitliği", "p": "Kardeş Okul Destek Projesi, Kitap Toplama ve Kütüphane Kurma, Ücretsiz Etüt ve Akademik Destek Programı. Hedef: kırsal bölgelerdeki öğrenciler ve maddi imkânları kısıtlı çocuklar."},
+      {"n": "02", "h": "Çevre ve Sürdürülebilirlik", "p": "Sıfır Atık ve Geri Dönüşüm Kampanyası, Fidan Dikimi ve Yeşil Alan Oluşturma, Enerji Tasarrufu ve Çevre Farkındalığı Haftası."},
+      {"n": "03", "h": "Sosyal Dayanışma ve Yardımlaşma", "p": "Gıda ve Giysi Yardımı Kampanyaları, Ramazan ve Bayram Dayanışma Projeleri, Yaşlı ve Engelli Bireylere Destek Ziyaretleri."},
+      {"n": "04", "h": "Sağlık ve Farkındalık", "p": "Kan ve Kök Hücre Bağışı Kampanyaları, Bağımlılıkla Mücadele Seminerleri, Sağlıklı Yaşam ve Spor Etkinlikleri."},
+      {"n": "05", "h": "Kültürel ve Toplumsal Değerler", "p": "Kültürel Miras Gezileri, Değerler Eğitimi Atölyeleri, Şehit ve Gazi Aileleriyle Dayanışma Programları."}
+    ]},
+    {"type": "h3", "text": "Öğrenci Kazanımları"},
+    {"type": "list", "items": [
+      "Empati ve iletişim becerileri geliştirir",
+      "Takım çalışması ve liderlik deneyimi kazanır",
+      "Toplumsal sorunlara duyarlılık geliştirir",
+      "Özgüven ve sorumluluk bilinci edinir"
+    ]},
+    {"type": "p", "text": "Projeler; yerel yönetimler, sivil toplum kuruluşları, üniversiteler ve gönüllü kuruluşlarla iş birliği içinde yürütülmektedir. Her proje sonunda katılımcı geri bildirimleri alınır, etki analizi yapılır ve bir sonraki yıl için geliştirme önerileri oluşturulur."},
+    {"type": "lead", "text": "\"Gelecek, sorumluluk alan bireylerle inşa edilir.\""}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "bilisim-teknolojileri",
+  "section": "Bölümler",
+  "menu_title": "Bilişim Teknolojileri",
+  "title": "Bilişim Teknolojileri Bölümü",
+  "eyebrow": "Bölümler · BT-01",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.04.20-WHoZDHcDFZEXKF1t.jpeg",
+  "blocks": [
+    {"type": "image", "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.04.20-WHoZDHcDFZEXKF1t.jpeg"},
+    {"type": "p", "text": "Özel Van OSB Mesleki ve Teknik Anadolu Lisesi olarak, geleceğin dijital dünyasında söz sahibi olacak gençleri yetiştirmeyi hedefliyoruz. Bilişim Teknolojileri Alanı; teknolojiye ilgi duyan, yenilikçi düşünen ve üretmeyi seven öğrenciler için geleceğe açılan güçlü bir kapıdır. Bu alanda öğrencilerimiz; bilgisayar donanımı, ağ sistemleri, web tasarımı, programlama, veri tabanı yönetimi ve siber güvenlik gibi konularda kapsamlı bir eğitim alır. Teorik bilginin yanında, uygulamaya dayalı güçlü bir eğitim modeliyle öğrencilerimizin el becerilerini, analitik düşünme yeteneklerini ve problem çözme becerilerini geliştiriyoruz."},
+    {"type": "p", "text": "Okulumuzda yer alan 2 adet modern bilişim laboratuvarı, öğrencilerimizin en güncel yazılımlar ve teknolojik ekipmanlarla uygulama yapabilmesine olanak sağlar. Bu laboratuvarlarda yürütülen proje çalışmaları sayesinde öğrencilerimiz, gerçek dünya deneyimi kazanarak mesleki yeterliliklerini artırır. Öğrencilerimiz; zorunlu staj programı, sektör iş birlikleri ve sertifika eğitimleri aracılığıyla iş dünyasıyla erken yaşta tanışır. Mezunlarımız; web tasarımcısı, sistem destek elemanı, yazılım uzmanı, ağ teknisyeni veya veri tabanı elemanı olarak çeşitli kurumlarda görev yapabilir. Ayrıca dileyen öğrencilerimiz; bilgisayar mühendisliği, yazılım mühendisliği, bilişim sistemleri ve siber güvenlik gibi bölümlerde eğitimlerine devam edebilir."},
+    {"type": "p", "text": "Biz, Özel Van OSB MTAL olarak bilişim alanında yalnızca kullanıcı değil; teknolojiyi üreten ve geliştiren bir nesil yetiştirmeyi hedefliyoruz. Her öğrencimizin dijital dönüşüm sürecinde aktif, üretken ve yenilikçi bireyler olmasını sağlamak için çağın gereksinimlerine uygun bir eğitim anlayışı benimsiyoruz."},
+    {"type": "tags", "items": ["Yazılım & Programlama", "Ağ Sistemleri", "Web Tasarımı", "Veri Tabanı", "Siber Güvenlik", "Bilgisayar Donanımı"]}
+  ]
+}

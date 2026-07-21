@@ -1,0 +1,58 @@
+{
+  "slug": "hedeflerimiz",
+  "section": "Eğitim ve Akademik",
+  "menu_title": "Hedeflerimiz",
+  "title": "Hedeflerimiz",
+  "eyebrow": "Eğitim ve Akademik",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/resadegm-sergadegsadeg-H25wZBkkN9tIK3Id.jpg",
+  "blocks": [
+    {"type": "h3", "text": "1 · Mesleki ve Teknik Hedefler"},
+    {"type": "list", "items": [
+      "Bölge sanayisinin ihtiyaç duyduğu nitelikli ara elemanları yetiştirerek üretim gücüne doğrudan katkı sağlamak.",
+      "Bilişim, Elektrik-Elektronik, Kimya ve Gıda Teknolojisi alanlarında uygulamalı, yenilikçi ve sektörle iç içe eğitim modeli oluşturmak.",
+      "Öğrencilerimizi mezuniyet sonrası istihdama ve girişimciliğe hazır bireyler hâline getirmek.",
+      "Her bölümde sanayi iş birlikli staj ve proje sistemini güçlendirerek, OSB'de üretim süreçlerine entegre olmak.",
+      "\"Üreten okul, gelişen sanayi\" anlayışıyla okul-sanayi iş birliğini model hâline getirmek."
+    ]},
+    {"type": "h3", "text": "2 · Akademik Hedefler"},
+    {"type": "list", "items": [
+      "Öğrencilerimizin üniversite başarı oranlarını artırarak teknik üniversitelere ve mühendislik fakültelerine daha fazla öğrenci göndermek.",
+      "Akademik başarıyı destekleyen ölçme-değerlendirme, bireysel takip ve mentorluk sistemlerini geliştirmek.",
+      "Her öğrencinin potansiyeline göre bireyselleştirilmiş öğrenme planları oluşturmak.",
+      "Öğretmenlerimizin akademik gelişimini destekleyen hizmet içi eğitim, atölye ve AR-GE çalışmaları yürütmek.",
+      "Okulumuzu Doğu Anadolu'da akademik başarısı en yüksek mesleki teknik lise konumuna taşımak."
+    ]},
+    {"type": "h3", "text": "3 · Kurumsal Hedefler"},
+    {"type": "list", "items": [
+      "Tüm birimleriyle şeffaf, hesap verebilir ve kurumsal yönetim modeli oluşturmak.",
+      "Yönetim kurulu, eğitim koordinatörlüğü, idare, öğretmen ve destek personelinden oluşan kurum içi işleyişi sistemleştirmek.",
+      "İç yönergeler, iş akış şemaları, performans ve ödül sistemi ile sürdürülebilir bir yapı kurmak.",
+      "Kurum kültürünü güçlendirerek \"biz bir ekibiz\" anlayışını yerleştirmek.",
+      "OSB içindeki firmalarla, üniversitelerle ve kamu kurumlarıyla kurumsal protokol ve iş birliği ağını genişletmek."
+    ]},
+    {"type": "h3", "text": "4 · Sosyal ve Kültürel Hedefler"},
+    {"type": "list", "items": [
+      "Öğrencilerimizin sosyal becerilerini geliştirmek için kulüpler, sanat, spor ve kültür etkinlikleri düzenlemek.",
+      "Toplumsal sorumluluk projeleri ile çevreye, doğaya ve insana duyarlı bireyler yetiştirmek.",
+      "Kültürel miras ve yerel değerleri eğitim programlarına entegre etmek.",
+      "Değerler eğitimi, gönüllülük, liderlik ve iletişim konularında farkındalık kazandırmak.",
+      "\"Teknik donanımlı, kültürel kimliği güçlü birey\" yetiştirme anlayışını yaygınlaştırmak."
+    ]},
+    {"type": "h3", "text": "5 · Bölgesel ve Organize Sanayi Bölgesi Hedefleri"},
+    {"type": "list", "items": [
+      "Van OSB'nin insan kaynağı ihtiyacını karşılayan ana eğitim merkezi hâline gelmek.",
+      "Doğu Anadolu Bölgesi'nde sanayi-üretim odaklı eğitim modeli ile öncü kurum olmak.",
+      "OSB'de faaliyet gösteren işletmelere Ar-Ge desteği, ürün geliştirme ve personel eğitimi sağlamak.",
+      "Bölgesel kalkınmaya katkı sunan projeler, yarışmalar ve sertifikalı programlar geliştirmek.",
+      "OSB yönetimiyle ortak çalışarak, okulun sanayileşme süreçlerinde aktif paydaş olmasını sağlamak."
+    ]},
+    {"type": "h3", "text": "6 · Genel (Stratejik) Hedefler"},
+    {"type": "list", "items": [
+      "Mesleki eğitimi, ülke kalkınmasının temel dinamiği olarak yeniden konumlandırmak.",
+      "Okulumuzu, Doğu Anadolu'da örnek alınan bir eğitim, üretim ve istihdam merkezi hâline getirmek.",
+      "Eğitimde kalite, üretimde verimlilik, yönetimde şeffaflık ilkeleriyle tam kurumsallığı sağlamak.",
+      "Öğrenci, öğretmen, veli ve sanayi paydaşları arasında kalıcı bir güven ve iş birliği kültürü oluşturmak.",
+      "Her yıl gelişen performansla, Türkiye'nin en saygın mesleki teknik eğitim kurumları arasında yer almak."
+    ]}
+  ]
+}

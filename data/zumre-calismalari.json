@@ -1,0 +1,46 @@
+{
+  "slug": "zumre-calismalari",
+  "section": "Eğitim ve Akademik",
+  "menu_title": "Zümre Çalışmaları",
+  "title": "Zümre Çalışma Modelimiz",
+  "eyebrow": "Eğitim ve Akademik",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/lab3-Awv8glR3l0S1xnwq.jpg",
+  "blocks": [
+    {"type": "p", "text": "Okulumuzda zümre çalışmaları; öğretim birliğini sağlamak, öğrenci başarısını artırmak ve sürdürülebilir okul kültürü oluşturmak amacıyla planlı, izlenebilir ve sonuç odaklı bir anlayışla yürütülmektedir. Zümreler, yalnızca mevzuat gereği yapılan toplantılar değil; öğretim süreçlerinin kalitesini belirleyen temel kurullardır."},
+    {"type": "h3", "text": "1 · Zümre Çalışmalarının Temel İlkeleri"},
+    {"type": "list", "items": [
+      "Öğretimde ortak yaklaşım ve uygulama birliği",
+      "Ölçme ve değerlendirmede adalet ve şeffaflık",
+      "Öğrenci merkezli planlama",
+      "Mesleki ve teknik eğitimde sektör beklentileriyle uyum",
+      "Alınan kararların sınıf ve atölye ortamına yansıması"
+    ]},
+    {"type": "h2", "text": "2 · Zümre Toplantı Türleri ve Uygulama Esasları"},
+    {"type": "cards", "items": [
+      {"n": "A", "h": "Dönem Başı Toplantıları", "p": "Yıllık ve ünitelendirilmiş planlar ortaklaştırılır; ortak ölçme kriterleri ve sınav standartları belirlenir; öğrenci seviyeleri ve risk grupları değerlendirilir; meslek derslerinde sektör ihtiyaçları dikkate alınır."},
+      {"n": "B", "h": "Dönem İçi (Aylık) Toplantılar", "p": "Ders işleyiş süreçleri değerlendirilir; öğrenci başarı ve devamsızlık durumları ele alınır; sorunlara çözüm önerileri geliştirilir; iyi uygulama örnekleri paylaşılır."},
+      {"n": "C", "h": "Dönem Sonu Toplantıları", "p": "Ölçme-değerlendirme sonuçları analiz edilir; hedeflenen ve gerçekleşen kazanımlar karşılaştırılır; başarıyı artırmaya yönelik iyileştirme kararları alınır."}
+    ]},
+    {"type": "h3", "text": "3 · Zümre Başkanlığı ve Sorumluluklar"},
+    {"type": "list", "items": [
+      "Toplantıların planlı ve verimli yürütülmesini sağlar",
+      "Zümre kararlarının uygulanmasını takip eder",
+      "Öğretmenler arası koordinasyonu güçlendirir",
+      "Çalışmalar okul yönetimi tarafından rehberlik ve izleme anlayışıyla desteklenir"
+    ]},
+    {"type": "h3", "text": "4 · Mesleki ve Teknik Eğitime Özgü Uygulamalar"},
+    {"type": "list", "items": [
+      "Atölye ve uygulama derslerinde ortak standartlar",
+      "İşletmede beceri eğitimi geri bildirimlerinin değerlendirilmesi",
+      "Modül ve beceri kazanımlarının düzenli takibi",
+      "Sektörle uyumlu öğretim süreçleri"
+    ]},
+    {"type": "h3", "text": "5 · İzleme, Değerlendirme ve Sürekli İyileştirme"},
+    {"type": "list", "items": [
+      "Zümre kararları uygulama sonuçlarıyla birlikte izlenir",
+      "Ders ve atölye gözlemleriyle desteklenir",
+      "Etkili ve başarılı uygulamalar kurumsal hafızaya alınır"
+    ]},
+    {"type": "lead", "text": "Zümre kararları kâğıt üzerinde değil, sınıfta ve atölyede hayat bulur."}
+  ]
+}

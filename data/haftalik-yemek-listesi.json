@@ -1,0 +1,12 @@
+{
+  "slug": "haftalik-yemek-listesi",
+  "section": "Duyurular",
+  "menu_title": "Haftalık Yemek Listesi",
+  "title": "Haftalık Yemek Listesi",
+  "eyebrow": "Duyurular",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/resadegm-sergadegsadeg-H25wZBkkN9tIK3Id.jpg",
+  "blocks": [
+    {"type": "lead", "text": "Yemek listesi 2. dönemden itibaren haftalık olarak yayımlanacaktır."},
+    {"type": "image", "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251001-wa0015-64CXRTlNN7ra4yN6.jpg"}
+  ]
+}

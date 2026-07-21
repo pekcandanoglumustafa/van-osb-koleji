@@ -1,0 +1,20 @@
+{
+  "slug": "staj-isletme-egitimi",
+  "section": "Projeler",
+  "menu_title": "Staj ve İşletme Eğitimi",
+  "title": "Staj ve İşletmelerde Mesleki Eğitim",
+  "eyebrow": "Projelerimiz",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/elektrik-mxB2oPReagIyabpO.jpeg",
+  "blocks": [
+    {"type": "p", "text": "OSB Mesleki ve Teknik Lisesi olarak öğrencilerimizi yalnızca okul ortamında değil, üretimin ve istihdamın kalbinde yetiştiriyoruz. Bu kapsamda 12. sınıf öğrencilerimiz, haftanın 2 günü okulda teorik ve uygulamalı derslere, 3 günü ise Organize Sanayi Bölgesi bünyesindeki işletmelerde staj ve işletmelerde mesleki eğitim çalışmalarına katılmaktadır."},
+    {"type": "p", "text": "Öğrencilerimiz, alanlarıyla birebir örtüşen işletmelerde gerçek üretim süreçlerine dahil olarak mesleki bilgi, beceri ve iş disiplini kazanmaktadır. Bu süreçte öğrencilerimiz yasal mevzuata uygun şekilde sigortalı olarak işletmelerde eğitim görmekte, iş sağlığı ve güvenliği kuralları çerçevesinde çalışmaktadır."},
+    {"type": "h3", "text": "İşletmelerde mesleki eğitim öğrencilerimizin;"},
+    {"type": "list", "items": [
+      "mesleklerini yerinde öğrenmelerini,",
+      "iş hayatına erken uyum sağlamalarını,",
+      "mezuniyet sonrası istihdam avantajı kazanmalarını,",
+      "özgüven ve sorumluluk bilinci geliştirmelerini amaçlamaktadır."
+    ]},
+    {"type": "lead", "text": "Sanayi–eğitim iş birliğini esas alan bu modelle, öğrencilerimizi mezun olmadan iş hayatına hazırlıyor; nitelikli ve üretken bireyler olarak geleceğe taşıyoruz."}
+  ]
+}

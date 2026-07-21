@@ -1,0 +1,28 @@
+{
+  "slug": "ar-ge-calismalari",
+  "section": "Projeler",
+  "menu_title": "AR-GE Çalışmaları",
+  "title": "AR-GE Çalışmalarımız",
+  "eyebrow": "Projelerimiz",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.02.43-Mson1g4INnjSxVld.jpeg",
+  "blocks": [
+    {"type": "p", "text": "OSB Mesleki ve Teknik Anadolu Lisesi olarak Ar-Ge çalışmalarımızı; üretimle iç içe, yenilikçi, çözüm odaklı ve sürdürülebilir eğitim anlayışı üzerine inşa ediyoruz. Okulumuzda yürütülen Ar-Ge faaliyetleri, öğrencilerimizin mesleki bilgi ve becerilerini geliştirmenin yanı sıra araştıran, sorgulayan ve proje üreten bireyler olarak yetişmelerini hedeflemektedir."},
+    {"type": "p", "text": "Ar-Ge birimimiz; öğretmenlerimiz, öğrencilerimiz, OSB'de faaliyet gösteren sanayi kuruluşları ve üniversiteler ile iş birliği içinde çalışmaktadır. Bu kapsamda TÜBİTAK, Erasmus+, AB projeleri ve yerel-sanayi odaklı uygulamalı projeler geliştirilmekte, öğrencilerimizin gerçek üretim süreçlerine dokunması sağlanmaktadır."},
+    {"type": "h3", "text": "Ar-Ge çalışmalarımızın başlıkları"},
+    {"type": "list", "items": [
+      "Öğrenci merkezli proje geliştirme",
+      "Sanayi ihtiyaçlarına yönelik çözüm üretme",
+      "Mesleki ve teknik alanlarda yenilikçi uygulamalar",
+      "Ulusal ve uluslararası proje kültürü kazandırma",
+      "Girişimcilik ve inovasyon becerilerinin desteklenmesi"
+    ]},
+    {"type": "p", "text": "Bu çalışmalar sayesinde öğrencilerimiz; takım çalışması, problem çözme, analitik düşünme ve üretkenlik becerilerini geliştirirken, mezuniyet sonrası iş dünyasına ve yükseköğretime daha donanımlı şekilde hazırlanmaktadır. Ar-Ge'yi sadece proje üretme süreci değil, okul kültürünün ayrılmaz bir parçası olarak görüyoruz."},
+    {"type": "gallery", "items": [
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.02.43-Mson1g4INnjSxVld.jpeg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.03.06-8cqORiA1s8q1m0kZ.jpeg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.02.47-WhCYuRWU7qVtJTZq.jpeg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.04.39-UnzRaSK5sg1Hlr55.jpeg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.04.49-0tNWbIuWdYSHxueV.jpeg"
+    ]}
+  ]
+}

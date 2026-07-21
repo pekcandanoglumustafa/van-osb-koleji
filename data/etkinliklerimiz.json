@@ -1,0 +1,31 @@
+{
+  "slug": "etkinliklerimiz",
+  "section": "Galeri",
+  "menu_title": "Etkinliklerimiz",
+  "title": "Etkinliklerimiz",
+  "eyebrow": "Galeri",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/img-20251126-wa0081-1iS3auMRGyrHY73n.jpg",
+  "blocks": [
+    {"type": "p", "text": "Okulumuzda yıl boyunca düzenlenen sosyal, kültürel, sportif ve akademik etkinliklerden kareler."},
+    {"type": "gallery", "items": [
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251101-wa0031-fcr4ZSWTf67IKErc.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251101-wa0043-9V5XBlH4s2tyLFET.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251126-wa0019-EAR52NjTWrUoGGkI.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251126-wa0016-dmVkuemj6mQ62uVR.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251126-wa0081-1iS3auMRGyrHY73n.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251126-wa0077-J67RpuaLC2mYnf6H.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251126-wa0075-ZWJcIs5FseZGE866.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251126-wa0063-zhwOFAOfylGIt25J.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251126-wa0076-MmOrWvfsqqvWlmii.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251126-wa0074-ppV0wP7eZPAeEEol.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251101-wa0017-GkSwjvr0mJHhpxRc.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251021-wa0013-40K07TbFFthO6pcK.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251101-wa0015-hqYkkym4UC3nPBc6.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251126-wa0070-7iusNG96Bh8gz5Jk.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251126-wa0039-1mMHc2pxADDKG9Je.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251203-wa0177-EDkZ5PXMOggfnjaG.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251203-wa0200-BIVlcsbkEbu4aFuy.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251031-wa0050-aC5dzKuNgzPsghEn.jpg"
+    ]}
+  ]
+}

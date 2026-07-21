@@ -1,0 +1,34 @@
+{
+  "slug": "fiziksel-donanim",
+  "section": "Okulumuz",
+  "menu_title": "Fiziksel & Teknik Donanım",
+  "title": "Fiziki ve Teknik Donanım",
+  "eyebrow": "Okulumuz",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/osbbinasi-AQEePlgwBWIgZbMA.webp",
+  "stats": [
+    {"num": "16.000", "u": "m²", "lbl": "Geniş Kampüs Alanı"},
+    {"num": "1.500", "u": "", "lbl": "Öğrenci Kapasitesi"},
+    {"num": "4+2", "u": "", "lbl": "Kat (Bodrum + Zemin + 4)"},
+    {"num": "2", "u": "x", "lbl": "Her Alana Laboratuvar"}
+  ],
+  "blocks": [
+    {"type": "p", "text": "Özel Van Organize Sanayi Bölgesi Mesleki ve Teknik Anadolu Lisesi, 16.000 m²'lik geniş bir alan üzerinde, mesleki ve teknik eğitimin gerektirdiği tüm fiziki ve teknolojik altyapıya sahip olarak yapılandırılmıştır. Eğitim binası, bodrum ve zemin + 4 kat olarak planlanmış olup, 1.500 öğrenci kapasiteli modern bir eğitim kompleksidir."},
+    {"type": "p", "text": "Tüm dersliklerde etkileşimli tahta ve gerekli eğitim teknolojileri bulunmakta; öğrencilerin aktif, uygulamalı ve dijital destekli öğrenme süreçleri yürütülmektedir. Her alan için ayrı ayrı düzenlenmiş iki tam donanımlı laboratuvar, teorik bilginin uygulama ile bütünleştirildiği atölye ortamları sunmaktadır."},
+    {"type": "iconlist", "title": "Okulumuzda", "items": [
+      "Zümre odaları ve öğretmen çalışma alanları — akademik planlama ve koordinasyon",
+      "Yemekhane ve kantin — sağlıklı ve hijyenik beslenme",
+      "Açık suni çim futbol sahası, spor salonu ve konferans salonu — sportif, sosyal ve kültürel gelişim",
+      "Sığınak — güvenlik ve afet yönetimi açısından mevzuata uygun"
+    ]},
+    {"type": "p", "text": "Okulumuzun tüm birimleri, çağdaş eğitim ortamı anlayışıyla tasarlanmış olup, öğrencilerimizin bilişsel, duygusal, sosyal ve teknik gelişimini destekleyecek niteliktedir. Bu güçlü fiziki ve teknik donanımıyla okulumuz, Doğu Anadolu Bölgesi'nin öncü mesleki ve teknik eğitim merkezlerinden biri olma hedefini kararlılıkla sürdürmektedir."},
+    {"type": "gallery", "items": [
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251101-wa0031-fcr4ZSWTf67IKErc.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/img-20251031-wa0016-fvMlMoyfvdpgaIz4.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/osbbinasi-AQEePlgwBWIgZbMA.webp",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/lab3-Awv8glR3l0S1xnwq.jpg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.02.43-Mson1g4INnjSxVld.jpeg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-10-01-at-10.06.19-4-aYUuBLb2iDv4oAkF.jpeg",
+      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/resim-gdUuj8PTihFm2JEv.jpg"
+    ]}
+  ]
+}

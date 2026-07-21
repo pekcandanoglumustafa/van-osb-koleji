@@ -1,0 +1,17 @@
+{
+  "slug": "elektrik-elektronik",
+  "section": "Bölümler",
+  "menu_title": "Elektrik-Elektronik Teknolojisi",
+  "title": "Elektrik-Elektronik Teknolojisi Bölümü",
+  "eyebrow": "Bölümler · EE-02",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.04.46-SkZhilOxkjCZnF0N.jpeg",
+  "blocks": [
+    {"type": "image", "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.04.46-SkZhilOxkjCZnF0N.jpeg"},
+    {"type": "p", "text": "Özel Van OSB Mesleki ve Teknik Anadolu Lisesi, modern teknolojiyle donatılmış Elektrik-Elektronik Teknolojisi Atölyesi ile öğrencilerine teoriyi pratiğe dönüştürme fırsatı sunmaktadır."},
+    {"type": "p", "text": "Atölyemiz; izole yüzeyli, topraklama hatlı çalışma masaları, PLC eğitim setleri, sensör sistemleri, motor kontrol panoları, ölçüm cihazları ve profesyonel el aletleriyle donatılmıştır. Bu sayede öğrencilerimiz, endüstriyel ortama birebir benzeyen bir uygulama alanında eğitim görmektedir."},
+    {"type": "p", "text": "Atölyemizde Proteus, Multisim, AutoCAD Electrical, Siemens TIA Portal ve LOGO Soft gibi yazılımlar kullanılmakta; öğrencilerimizin devre tasarımı, analiz ve otomasyon becerileri geliştirilmektedir."},
+    {"type": "p", "text": "Amacımız, öğrencilere yalnızca teknik bilgi kazandırmak değil; disiplin, sorumluluk ve teknolojik farkındalık bilinci aşılamaktır. Deneyimli öğretmen kadromuz ve sanayi iş birliklerimizle öğrencilerimizi sektöre hazır bireyler hâline getiriyoruz."},
+    {"type": "lead", "text": "Biz teknolojiyi öğretmekten çok daha fazlasını yapıyoruz — geleceği tasarlıyoruz."},
+    {"type": "tags", "items": ["PLC & Otomasyon", "Motor Kontrol Panoları", "Sensör Sistemleri", "TIA Portal", "AutoCAD Electrical", "Proteus / Multisim"]}
+  ]
+}

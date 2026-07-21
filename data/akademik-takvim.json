@@ -1,0 +1,12 @@
+{
+  "slug": "akademik-takvim",
+  "section": "Eğitim ve Akademik",
+  "menu_title": "Akademik Takvim",
+  "title": "Akademik Takvim",
+  "eyebrow": "Eğitim ve Akademik",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/resadegm-sergadegsadeg-H25wZBkkN9tIK3Id.jpg",
+  "blocks": [
+    {"type": "p", "text": "Eğitim-öğretim yılına ait dönem, tatil ve sınav tarihlerini içeren akademik takvimimiz aşağıdadır."},
+    {"type": "image", "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,fit=crop/YD0Eeq404vF5okpN/ekran-resmi-2025-11-18-13.30.31-Y9xUbwLMDvof5pbo.png"}
+  ]
+}
