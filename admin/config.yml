@@ -1,0 +1,317 @@
+backend:
+  name: github
+  repo: pekcandanoglumustafa/van-osb-koleji
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+locale: "tr"
+
+collections:
+  # ============ KADRO ============
+  - name: "kadro"
+    label: "👥 Kadro"
+    files:
+      - name: "ogretmen"
+        label: "Öğretmen & Personel Kadrosu"
+        file: "data/ogretmen-kadrosu.json"
+        fields:
+          - { label: "Slug", name: "slug", widget: "hidden", default: "ogretmen-kadrosu" }
+          - { label: "Bölüm", name: "section", widget: "hidden", default: "Okulumuz" }
+          - { label: "Menü Başlığı", name: "menu_title", widget: "hidden", default: "Öğretmen & Personel Kadrosu" }
+          - { label: "Sayfa Başlığı", name: "title", widget: "string" }
+          - { label: "Üst Etiket", name: "eyebrow", widget: "hidden", default: "Okulumuz" }
+          - { label: "Kapak Görseli", name: "hero_img", widget: "image", required: false }
+          - { label: "Giriş Metni", name: "intro", widget: "text", required: false }
+          - label: "Kadro Grupları"
+            name: "staff_groups"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Grup Başlığı", name: "title", widget: "string" }
+              - label: "Kişiler"
+                name: "people"
+                widget: "list"
+                summary: "{{fields.name}} — {{fields.role}}"
+                fields:
+                  - { label: "Ad Soyad", name: "name", widget: "string" }
+                  - { label: "Unvan / Branş", name: "role", widget: "string" }
+                  - { label: "Fotoğraf", name: "img", widget: "image", required: false }
+      - name: "yonetim"
+        label: "Yönetim Kadrosu"
+        file: "data/yonetim-kadrosu.json"
+        fields:
+          - { label: "Slug", name: "slug", widget: "hidden", default: "yonetim-kadrosu" }
+          - { label: "Bölüm", name: "section", widget: "hidden", default: "Okulumuz" }
+          - { label: "Menü Başlığı", name: "menu_title", widget: "hidden", default: "Yönetim Kadromuz" }
+          - { label: "Sayfa Başlığı", name: "title", widget: "string" }
+          - { label: "Üst Etiket", name: "eyebrow", widget: "hidden", default: "Okulumuz" }
+          - { label: "Kapak Görseli", name: "hero_img", widget: "image", required: false }
+          - &blocks
+            label: "İçerik Blokları"
+            name: "blocks"
+            widget: "list"
+            types:
+              - { label: "Başlık (büyük)", name: "h2", widget: "object", fields: [ { label: "Metin", name: "text", widget: "string" } ] }
+              - { label: "Başlık (küçük)", name: "h3", widget: "object", fields: [ { label: "Metin", name: "text", widget: "string" } ] }
+              - { label: "Paragraf", name: "p", widget: "object", fields: [ { label: "Metin", name: "text", widget: "text" } ] }
+              - { label: "Vurgulu Cümle", name: "lead", widget: "object", fields: [ { label: "Metin", name: "text", widget: "text" } ] }
+              - { label: "Not Kutusu", name: "note", widget: "object", fields: [ { label: "Metin", name: "text", widget: "text" } ] }
+              - { label: "Görsel", name: "image", widget: "object", fields: [ { label: "Görsel", name: "src", widget: "image" } ] }
+              - label: "Galeri (çoklu görsel)"
+                name: "gallery"
+                widget: "object"
+                fields:
+                  - { label: "Görseller", name: "items", widget: "list", field: { label: "Görsel", name: "img", widget: "image" } }
+              - label: "Madde Listesi"
+                name: "list"
+                widget: "object"
+                fields:
+                  - { label: "Başlık (ops.)", name: "title", widget: "string", required: false }
+                  - { label: "Maddeler", name: "items", widget: "list", field: { label: "Madde", name: "item", widget: "string" } }
+              - label: "İki Sütun Liste"
+                name: "iconlist"
+                widget: "object"
+                fields:
+                  - { label: "Başlık (ops.)", name: "title", widget: "string", required: false }
+                  - { label: "Maddeler", name: "items", widget: "list", field: { label: "Madde", name: "item", widget: "string" } }
+              - label: "Etiketler"
+                name: "tags"
+                widget: "object"
+                fields:
+                  - { label: "Etiketler", name: "items", widget: "list", field: { label: "Etiket", name: "t", widget: "string" } }
+              - label: "Kartlar"
+                name: "cards"
+                widget: "object"
+                fields:
+                  - label: "Kartlar"
+                    name: "items"
+                    widget: "list"
+                    summary: "{{fields.h}}"
+                    fields:
+                      - { label: "No", name: "n", widget: "string", required: false }
+                      - { label: "Başlık", name: "h", widget: "string" }
+                      - { label: "Metin", name: "p", widget: "text" }
+              - label: "Sıkça Sorulan Sorular"
+                name: "faq"
+                widget: "object"
+                fields:
+                  - label: "Sorular"
+                    name: "items"
+                    widget: "list"
+                    summary: "{{fields.q}}"
+                    fields:
+                      - { label: "Soru", name: "q", widget: "string" }
+                      - { label: "Cevap", name: "a", widget: "text" }
+              - label: "Sıralı Ağaç (şema)"
+                name: "tree"
+                widget: "object"
+                fields:
+                  - { label: "Adımlar", name: "items", widget: "list", field: { label: "Adım", name: "item", widget: "string" } }
+              - label: "İş Akışı (numaralı)"
+                name: "flow"
+                widget: "object"
+                fields:
+                  - { label: "Adımlar", name: "items", widget: "list", field: { label: "Adım", name: "item", widget: "string" } }
+              - label: "Boş Kadro Kartı"
+                name: "vacancies"
+                widget: "object"
+                fields:
+                  - { label: "Unvan", name: "label", widget: "string" }
+                  - { label: "Adet", name: "count", widget: "number", default: 1 }
+              - { label: "Boş Durum Mesajı", name: "empty", widget: "object", fields: [ { label: "Metin", name: "text", widget: "text" } ] }
+
+  # ============ GALERİ ============
+  - name: "galeri"
+    label: "🖼️ Galeri"
+    files:
+      - name: "etkinlikler"
+        label: "Etkinliklerimiz"
+        file: "data/etkinliklerimiz.json"
+        fields:
+          - { label: "Slug", name: "slug", widget: "hidden", default: "etkinliklerimiz" }
+          - { label: "Bölüm", name: "section", widget: "hidden", default: "Galeri" }
+          - { label: "Menü Başlığı", name: "menu_title", widget: "hidden", default: "Etkinliklerimiz" }
+          - { label: "Sayfa Başlığı", name: "title", widget: "string" }
+          - { label: "Üst Etiket", name: "eyebrow", widget: "hidden", default: "Galeri" }
+          - { label: "Kapak Görseli", name: "hero_img", widget: "image", required: false }
+          - *blocks
+      - name: "kareler"
+        label: "Okulumuzdan Kareler"
+        file: "data/okulumuzdan-kareler.json"
+        fields:
+          - { label: "Slug", name: "slug", widget: "hidden", default: "okulumuzdan-kareler" }
+          - { label: "Bölüm", name: "section", widget: "hidden", default: "Galeri" }
+          - { label: "Menü Başlığı", name: "menu_title", widget: "hidden", default: "Okulumuzdan Kareler" }
+          - { label: "Sayfa Başlığı", name: "title", widget: "string" }
+          - { label: "Üst Etiket", name: "eyebrow", widget: "hidden", default: "Galeri" }
+          - { label: "Kapak Görseli", name: "hero_img", widget: "image", required: false }
+          - *blocks
+      - name: "basarilar"
+        label: "Başarılarımız"
+        file: "data/basarilarimiz.json"
+        fields:
+          - { label: "Slug", name: "slug", widget: "hidden", default: "basarilarimiz" }
+          - { label: "Bölüm", name: "section", widget: "hidden", default: "Eğitim ve Akademik" }
+          - { label: "Menü Başlığı", name: "menu_title", widget: "hidden", default: "Başarılarımız" }
+          - { label: "Sayfa Başlığı", name: "title", widget: "string" }
+          - { label: "Üst Etiket", name: "eyebrow", widget: "hidden", default: "Eğitim ve Akademik" }
+          - { label: "Kapak Görseli", name: "hero_img", widget: "image", required: false }
+          - *blocks
+
+  # ============ DUYURULAR ============
+  - name: "duyurular"
+    label: "📢 Duyurular"
+    files:
+      - name: "duyuru"
+        label: "Duyuru"
+        file: "data/duyuru.json"
+        fields:
+          - { label: "Slug", name: "slug", widget: "hidden", default: "duyuru" }
+          - { label: "Bölüm", name: "section", widget: "hidden", default: "Duyurular" }
+          - { label: "Menü Başlığı", name: "menu_title", widget: "hidden", default: "Duyuru" }
+          - { label: "Sayfa Başlığı", name: "title", widget: "string" }
+          - { label: "Üst Etiket", name: "eyebrow", widget: "hidden", default: "Duyurular" }
+          - { label: "Kapak Görseli", name: "hero_img", widget: "image", required: false }
+          - *blocks
+      - name: "dokumanlar"
+        label: "Dökümanlar"
+        file: "data/dokumanlar.json"
+        fields:
+          - { label: "Slug", name: "slug", widget: "hidden", default: "dokumanlar" }
+          - { label: "Bölüm", name: "section", widget: "hidden", default: "Duyurular" }
+          - { label: "Menü Başlığı", name: "menu_title", widget: "hidden", default: "Dökümanlar" }
+          - { label: "Sayfa Başlığı", name: "title", widget: "string" }
+          - { label: "Üst Etiket", name: "eyebrow", widget: "hidden", default: "Duyurular" }
+          - { label: "Kapak Görseli", name: "hero_img", widget: "image", required: false }
+          - *blocks
+      - name: "yemek"
+        label: "Haftalık Yemek Listesi"
+        file: "data/haftalik-yemek-listesi.json"
+        fields:
+          - { label: "Slug", name: "slug", widget: "hidden", default: "haftalik-yemek-listesi" }
+          - { label: "Bölüm", name: "section", widget: "hidden", default: "Duyurular" }
+          - { label: "Menü Başlığı", name: "menu_title", widget: "hidden", default: "Haftalık Yemek Listesi" }
+          - { label: "Sayfa Başlığı", name: "title", widget: "string" }
+          - { label: "Üst Etiket", name: "eyebrow", widget: "hidden", default: "Duyurular" }
+          - { label: "Kapak Görseli", name: "hero_img", widget: "image", required: false }
+          - *blocks
+
+  # ============ BÖLÜMLER ============
+  - name: "bolumler"
+    label: "🎓 Bölümler"
+    files:
+      - name: "bilisim"
+        label: "Bilişim Teknolojileri"
+        file: "data/bilisim-teknolojileri.json"
+        fields: &dept_fields
+          - { label: "Slug", name: "slug", widget: "hidden" }
+          - { label: "Bölüm", name: "section", widget: "hidden", default: "Bölümler" }
+          - { label: "Menü Başlığı", name: "menu_title", widget: "string" }
+          - { label: "Sayfa Başlığı", name: "title", widget: "string" }
+          - { label: "Üst Etiket", name: "eyebrow", widget: "string" }
+          - { label: "Kapak Görseli", name: "hero_img", widget: "image", required: false }
+          - *blocks
+      - name: "elektrik"
+        label: "Elektrik-Elektronik Teknolojisi"
+        file: "data/elektrik-elektronik.json"
+        fields: *dept_fields
+      - name: "kimya"
+        label: "Kimya Teknolojisi"
+        file: "data/kimya-teknolojisi.json"
+        fields: *dept_fields
+      - name: "gida"
+        label: "Gıda Teknolojisi"
+        file: "data/gida-teknolojisi.json"
+        fields: *dept_fields
+
+  # ============ OKULUMUZ SAYFALARI ============
+  - name: "okulumuz"
+    label: "🏫 Okulumuz Sayfaları"
+    files:
+      - name: "tarihce"
+        label: "Tarihçe"
+        file: "data/tarihce.json"
+        fields: &page_fields
+          - { label: "Slug", name: "slug", widget: "hidden" }
+          - { label: "Bölüm", name: "section", widget: "hidden" }
+          - { label: "Menü Başlığı", name: "menu_title", widget: "string" }
+          - { label: "Sayfa Başlığı", name: "title", widget: "string" }
+          - { label: "Üst Etiket", name: "eyebrow", widget: "string" }
+          - { label: "Kapak Görseli", name: "hero_img", widget: "image", required: false }
+          - *blocks
+      - name: "misyon"
+        label: "Misyon & Vizyon"
+        file: "data/misyon-vizyon.json"
+        fields: *page_fields
+      - name: "kurum-kulturu"
+        label: "Kurum Kültürü"
+        file: "data/kurum-kulturu.json"
+        fields: *page_fields
+      - name: "kurumsal-degerler"
+        label: "Kurumsal Değerler"
+        file: "data/kurumsal-degerler.json"
+        fields: *page_fields
+      - name: "fiziksel-donanim"
+        label: "Fiziksel & Teknik Donanım"
+        file: "data/fiziksel-donanim.json"
+        fields:
+          - { label: "Slug", name: "slug", widget: "hidden" }
+          - { label: "Bölüm", name: "section", widget: "hidden" }
+          - { label: "Menü Başlığı", name: "menu_title", widget: "string" }
+          - { label: "Sayfa Başlığı", name: "title", widget: "string" }
+          - { label: "Üst Etiket", name: "eyebrow", widget: "string" }
+          - { label: "Kapak Görseli", name: "hero_img", widget: "image", required: false }
+          - label: "İstatistikler"
+            name: "stats"
+            widget: "list"
+            required: false
+            summary: "{{fields.num}} — {{fields.lbl}}"
+            fields:
+              - { label: "Sayı", name: "num", widget: "string" }
+              - { label: "Birim", name: "u", widget: "string", required: false }
+              - { label: "Etiket", name: "lbl", widget: "string" }
+          - *blocks
+
+  # ============ EĞİTİM & AKADEMİK ============
+  - name: "egitim"
+    label: "📚 Eğitim & Akademik"
+    files:
+      - name: "hedeflerimiz"
+        label: "Hedeflerimiz"
+        file: "data/hedeflerimiz.json"
+        fields: *page_fields
+      - name: "rehberlik"
+        label: "Rehberlik Servisi"
+        file: "data/rehberlik-servisi.json"
+        fields: *page_fields
+      - name: "zumre"
+        label: "Zümre Çalışmaları"
+        file: "data/zumre-calismalari.json"
+        fields: *page_fields
+      - name: "akademik-takvim"
+        label: "Akademik Takvim"
+        file: "data/akademik-takvim.json"
+        fields: *page_fields
+
+  # ============ PROJELER ============
+  - name: "projeler"
+    label: "🔬 Projeler"
+    files:
+      - name: "tubitak"
+        label: "TÜBİTAK – Erasmus – AB"
+        file: "data/tubitak-erasmus-ab.json"
+        fields: *page_fields
+      - name: "sosyal-sorumluluk"
+        label: "Sosyal Sorumluluk"
+        file: "data/sosyal-sorumluluk.json"
+        fields: *page_fields
+      - name: "staj"
+        label: "Staj ve İşletme Eğitimi"
+        file: "data/staj-isletme-egitimi.json"
+        fields: *page_fields
+      - name: "ar-ge"
+        label: "AR-GE Çalışmaları"
+        file: "data/ar-ge-calismalari.json"
+        fields: *page_fields
