@@ -1,0 +1,41 @@
+name: Siteyi Yeniden Üret
+
+# Panel (Sveltia) data/ veya images/ altına yazınca otomatik çalışır,
+# HTML'i yeniden üretip commit'ler. Vercel bu commit'i otomatik deploy eder.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'images/**'
+      - 'build.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-site
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: HTML üret
+        run: python3 build.py
+      - name: Değişiklikleri commit'le
+        run: |
+          git config user.name "vanosb-content-bot"
+          git config user.email "bot@ozelvanosbkoleji.com"
+          git add -A -- '*.html'
+          if git diff --staged --quiet; then
+            echo "Değişiklik yok."
+          else
+            git commit -m "build: içerik güncellendi [auto]"
+            git push
+          fi
