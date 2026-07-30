@@ -6,6 +6,29 @@
   "eyebrow": "Duyurular",
   "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/resadegm-sergadegsadeg-H25wZBkkN9tIK3Id.jpg",
   "blocks": [
-    {"type": "empty", "text": "Güncel duyurularımız yakında burada yayımlanacaktır. Bizi takipte kalın."}
+    {
+      "type": "empty",
+      "text": "Güncel duyurularımız yakında burada yayımlanacaktır. Bizi takipte kalın."
+    },
+    {
+      "type": "image",
+      "src": "/images/WEB SİTE 1.PNG"
+    },
+    {
+      "type": "h2",
+      "text": "Van OSB Mesleki ve Teknik Anadolu Lisesi Ulusal Basında Yer Aldı"
+    },
+    {
+      "type": "p",
+      "text": "Van OSB Mesleki ve Teknik Anadolu Lisesi, uygulamalı mesleki eğitim anlayışı ve sanayi ile güçlü iş birliği modeliyle ulusal basında yer aldı. İhlas Haber Ajansı (İHA) tarafından yayımlanan haberde, okulumuzun bilişim teknolojileri, elektrik-elektronik, kimya teknolojisi ve gıda teknolojisi alanlarında yürüttüğü eğitim faaliyetleri ile öğrencilerin uygulamalı eğitim sayesinde mesleki yeterlilik kazandığı vurgulandı. Ayrıca öğrencilerimizin üretim ve proje odaklı çalışmalarıyla bölge sanayisinin nitelikli iş gücü ihtiyacına katkı sağladığına dikkat çekildi. Okulumuz, mesleki eğitimde kaliteyi artırmaya ve ülkemizin geleceğine değer katacak bireyler yetiştirmeye kararlılıkla devam etmektedir."
+    },
+    {
+      "type": "h3",
+      "text": "Kaynak :İhlas Haber Ajansı(İHA)"
+    },
+    {
+      "type": "p",
+      "text": "https://www.iha.com.tr/van-haberleri/van-osb-mesleki-ve-teknik-anadolu-lisesi-gelecegin-meslek-sahiplerini-yetistiriyor-442385428"
+    }
   ]
 }
