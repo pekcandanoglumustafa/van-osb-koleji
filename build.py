@@ -18,6 +18,7 @@ NAV = [
         ("Kurumsal Değerlerimiz", "kurumsal-degerler.html"),
         ("Fiziksel & Teknik Donanım", "fiziksel-donanim.html"),
         ("Öğretmen & Personel Kadrosu", "ogretmen-kadrosu.html"),
+        ("Basında Biz", "basinda-biz.html"),
         ("İletişim", "iletisim.html"),
     ]},
     {"label": "Bölümler", "href": "bolumler.html", "key": "bolumler", "children": [
@@ -196,6 +197,15 @@ def render_blocks(blocks):
         elif t == "gallery":
             imgs = "".join(f'<a href="{u}" target="_blank" rel="noopener"><img loading="lazy" src="{u}" alt=""/></a>' for u in b["items"])
             out.append(f'<div class="pr-gallery">{imgs}</div>')
+        elif t == "press":
+            cards = ""
+            for it in b["items"]:
+                date = f'<span class="pnews-date">{esc(it["date"])}</span>' if it.get("date") else ""
+                cards += (f'<a class="pnews" href="{it["url"]}" target="_blank" rel="noopener">'
+                          f'<div class="pnews-top"><span class="pnews-src">{esc(it["source"])}</span>{date}</div>'
+                          f'<h3>{esc(it["title"])}</h3>'
+                          f'<span class="pnews-go">Habere git {ARROW}</span></a>')
+            out.append(f'<div class="pnews-grid">{cards}</div>')
         i += 1
     out.append('</div></div></section>')
     return "".join(out)

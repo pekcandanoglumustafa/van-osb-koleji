@@ -1,0 +1,21 @@
+{
+  "slug": "basinda-biz",
+  "section": "Okulumuz",
+  "menu_title": "Basında Biz",
+  "title": "Basında Biz",
+  "eyebrow": "Okulumuz",
+  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/lab3-Awv8glR3l0S1xnwq.jpg",
+  "blocks": [
+    {"type": "lead", "text": "Okulumuz ve öğrencilerimizin ürettiği projeler ulusal ve yerel basında geniş yer buldu. Haberlerden bazıları:"},
+    {"type": "press", "items": [
+      {"source": "İhlas Haber Ajansı (İHA)", "date": "22 Haziran 2026", "title": "Van OSB Mesleki ve Teknik Anadolu Lisesi geleceğin meslek sahiplerini yetiştiriyor", "url": "https://www.iha.com.tr/van-haberleri/van-osb-mesleki-ve-teknik-anadolu-lisesi-gelecegin-meslek-sahiplerini-yetistiriyor-442385428"},
+      {"source": "Haberler.com", "title": "Van OSB Meslek Lisesi 52 çeşit kimyasal ürün geliştirdi", "url": "https://www.haberler.com/egitim/van-osb-meslek-lisesi-52-cesit-kimyasal-urun-gelistirdi-19975379-haberi/"},
+      {"source": "Bölge Gazetesi Van", "title": "Van'da geleceğin ustaları yetişiyor: Öğrenciler üretiyor, sanayi kazanıyor", "url": "https://www.bolgegazetesivan.com/vanda-gelecegin-ustalari-yetisiyor-ogrenciler-uretiyor-sanayi-kazaniyor"},
+      {"source": "Van Objektif", "title": "Geleceğin nitelikli iş gücü Van OSB'de yetişiyor", "url": "https://vanobjektif.net/gelecegin-nitelikli-is-gucu-van-osbde-yetisiyor-7507"},
+      {"source": "Habertürk (Yerel Haberler)", "title": "Van OSB Mesleki ve Teknik Anadolu Lisesi geleceğin meslek sahiplerini yetiştiriyor", "url": "https://yerel-haberler.haberturk.com/van-haberleri/van-osb-mesleki-ve-teknik-anadolu-lisesi-gelecegin-meslek-sahiplerini-yetistiriyor-118422652"},
+      {"source": "Son Dakika", "title": "Van OSB Lisesi ile nitelikli eleman ihtiyacına çözüm", "url": "https://www.sondakika.com/egitim/haber-van-osb-lisesi-ile-nitelikli-eleman-ihtiyaci-karsi-19975439/"},
+      {"source": "Gazete Birlik", "title": "Van OSB Mesleki ve Teknik Anadolu Lisesi geleceğin meslek sahiplerini yetiştiriyor", "url": "https://www.gazetebirlik.com/egitim/van-osb-mesleki-ve-teknik-anadolu-lisesi-gelecegin-meslek-sahiplerini-yetistiriyor/1023016"},
+      {"source": "Medya Gazete", "title": "Van OSB Mesleki ve Teknik Anadolu Lisesi geleceğin meslek sahiplerini yetiştiriyor", "url": "https://www.medyagazete.com/haber/van-osb-mesleki-ve-teknik-anadolu-lisesi-gelecegin-meslek-sahiplerini-yetistiriyor-1404910"}
+    ]}
+  ]
+}

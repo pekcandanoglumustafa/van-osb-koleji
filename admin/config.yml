@@ -121,6 +121,19 @@ collections:
                   - { label: "Unvan", name: "label", widget: "string" }
                   - { label: "Adet", name: "count", widget: "number", default: 1 }
               - { label: "Boş Durum Mesajı", name: "empty", widget: "object", fields: [ { label: "Metin", name: "text", widget: "text" } ] }
+              - label: "Basın Haberleri"
+                name: "press"
+                widget: "object"
+                fields:
+                  - label: "Haberler"
+                    name: "items"
+                    widget: "list"
+                    summary: "{{fields.source}} — {{fields.title}}"
+                    fields:
+                      - { label: "Kaynak", name: "source", widget: "string" }
+                      - { label: "Tarih (opsiyonel)", name: "date", widget: "string", required: false }
+                      - { label: "Haber Başlığı", name: "title", widget: "string" }
+                      - { label: "Bağlantı (URL)", name: "url", widget: "string" }
 
   # ============ GALERİ ============
   - name: "galeri"
@@ -252,6 +265,10 @@ collections:
       - name: "kurumsal-degerler"
         label: "Kurumsal Değerler"
         file: "data/kurumsal-degerler.json"
+        fields: *page_fields
+      - name: "basinda-biz"
+        label: "Basında Biz"
+        file: "data/basinda-biz.json"
         fields: *page_fields
       - name: "fiziksel-donanim"
         label: "Fiziksel & Teknik Donanım"
