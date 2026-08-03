@@ -414,7 +414,7 @@ def iletisim_page():
             '<div class="info-card"><div class="ic"><svg viewBox="0 0 24 24" stroke-width="2" fill="none"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>'
             '<div><h4>Adres</h4><p>Van Organize Sanayi Bölgesi<br/>Van / Türkiye</p></div></div>'
             '<div class="info-card"><div class="ic"><svg viewBox="0 0 24 24" stroke-width="2" fill="none"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3-8.6A2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.4 1.8.7 2.6a2 2 0 01-.5 2.1L8.1 9.9a16 16 0 006 6l1.5-1.2a2 2 0 012.1-.4c.8.3 1.7.6 2.6.7a2 2 0 011.7 2z"/></svg></div>'
-            '<div><h4>Telefon</h4><p><a href="tel:+900000000000">0 (000) 000 00 00</a></p></div></div>'
+            '<div><h4>Telefon</h4><p><a href="tel:+905302440565">0 (530) 244 05 65</a></p></div></div>'
             '<div class="info-card"><div class="ic"><svg viewBox="0 0 24 24" stroke-width="2" fill="none"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 6L2 7"/></svg></div>'
             '<div><h4>E-posta</h4><p><a href="mailto:info@ozelvanosbkoleji.com">info@ozelvanosbkoleji.com</a></p></div></div>'
             '<div class="info-card"><div class="ic"><svg viewBox="0 0 24 24" stroke-width="2" fill="none"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></div>'
