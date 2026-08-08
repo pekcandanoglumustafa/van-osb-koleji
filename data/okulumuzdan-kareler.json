@@ -4,18 +4,24 @@
   "menu_title": "Okulumuzdan Kareler",
   "title": "Okulumuzdan Kareler",
   "eyebrow": "Galeri",
-  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/resadegm-sergadegsadeg-H25wZBkkN9tIK3Id.jpg",
+  "hero_img": "/images/IMG-20251001-WA0016.jpg",
   "blocks": [
-    {"type": "p", "text": "Atölyelerden dersliklere, laboratuvarlardan kampüs hayatına; okulumuzdan kareler."},
-    {"type": "gallery", "items": [
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/ogrenci2-m7VDQRa7D1uq0vRD.jpg",
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/lab3-Awv8glR3l0S1xnwq.jpg",
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/labsiyah-YD0EQRWPP7TZwXgB.jpg",
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/elektrik-mxB2oPReagIyabpO.jpeg",
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/ogrenci4-Yle4gwRoPLcZ9Gny.jpg",
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/osbbinasi-AQEePlgwBWIgZbMA.webp",
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.04.43-trO1cqp13L7Ecfuq.jpeg",
-      "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.03.11-9TYjnn4Lc1o1INCl.jpeg"
-    ]}
+    {
+      "type": "p",
+      "text": "Atölyelerden dersliklere, laboratuvarlardan kampüs hayatına; okulumuzdan kareler."
+    },
+    {
+      "type": "gallery",
+      "items": [
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/ogrenci2-m7VDQRa7D1uq0vRD.jpg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/lab3-Awv8glR3l0S1xnwq.jpg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/labsiyah-YD0EQRWPP7TZwXgB.jpg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/elektrik-mxB2oPReagIyabpO.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/ogrenci4-Yle4gwRoPLcZ9Gny.jpg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/osbbinasi-AQEePlgwBWIgZbMA.webp",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.04.43-trO1cqp13L7Ecfuq.jpeg",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.03.11-9TYjnn4Lc1o1INCl.jpeg"
+      ]
+    }
   ]
 }
