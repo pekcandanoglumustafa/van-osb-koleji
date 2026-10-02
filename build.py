@@ -61,6 +61,17 @@ ARROW = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-widt
 CHECK = '<svg viewBox="0 0 24 24" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>'
 CHEV = '<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>'
 
+import re
+import urllib.parse as _urlp
+def proxify(html):
+    # Tum assets.zyrosite.com gorsellerini images.weserv.nl uzerinden servis et
+    # (hotlink korumasini asar; gorsel dosyasi gerekmez)
+    import re as _re, urllib.parse as _up
+    return _re.sub(r"https://assets\.zyrosite\.com/[^\"'\s>]+",
+                   lambda m: "https://images.weserv.nl/?url=" + _up.quote(m.group(0), safe=""),
+                   html)
+
+
 def esc(s):
     return html.escape(s, quote=False)
 
@@ -453,20 +464,20 @@ def main():
         slug = data["slug"]
         active = slug_to_active.get(slug, SECTION_KEY.get(data.get("section"), ""))
         htmlpage = content_page(data, active)
-        open(os.path.join(ROOT, slug + ".html"), "w", encoding="utf-8").write(htmlpage)
+        open(os.path.join(ROOT, slug + ".html"), "w", encoding="utf-8").write(proxify(htmlpage))
 
     # overview landing pages
     for key in ["okulumuz", "egitim", "projeler", "duyurular"]:
         it = get_item(key)
         intro, hero = OVERVIEW_INTRO[key]
-        open(os.path.join(ROOT, it["href"]), "w", encoding="utf-8").write(overview_page(it, intro, hero))
+        open(os.path.join(ROOT, it["href"]), "w", encoding="utf-8").write(proxify(overview_page(it, intro, hero)))
 
     # special pages
-    open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(home_page())
-    open(os.path.join(ROOT, "bolumler.html"), "w", encoding="utf-8").write(bolumler_page())
-    open(os.path.join(ROOT, "galeri.html"), "w", encoding="utf-8").write(galeri_page())
-    open(os.path.join(ROOT, "iletisim.html"), "w", encoding="utf-8").write(iletisim_page())
-    open(os.path.join(ROOT, "404.html"), "w", encoding="utf-8").write(not_found())
+    open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(proxify(home_page()))
+    open(os.path.join(ROOT, "bolumler.html"), "w", encoding="utf-8").write(proxify(bolumler_page()))
+    open(os.path.join(ROOT, "galeri.html"), "w", encoding="utf-8").write(proxify(galeri_page()))
+    open(os.path.join(ROOT, "iletisim.html"), "w", encoding="utf-8").write(proxify(iletisim_page()))
+    open(os.path.join(ROOT, "404.html"), "w", encoding="utf-8").write(proxify(not_found()))
 
     print("all pages generated")
 
