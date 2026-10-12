@@ -22,8 +22,8 @@ Eski Zyro sitesi (assets.zyrosite.com) artık görsel vermiyor; tüm görseller 
   `build.py` tarafından buradaki dosyaya çevrilir (Zyro adındaki rastgele ek atılır:
   `lab3-Awv8glR3l0S1xnwq.jpg` → `images/site/lab3.jpg`). Yerel kopyası olmayan görsel kırık
   görünmez: galeride gizlenir, kapaklarda okul binası fotoğrafı, logoda "OSB" rozeti gösterilir.
-- `tools/fetch_zyro.py` + `.github/workflows/fetch-zyro.yml` — eski görselleri Zyro / İnternet Arşivi'nden
-  kurtarmayı deneyen tek seferlik iş (sonuç raporu: `images/site/_kaynak.json`).
+- Ekim 2026'da Zyro'daki dosyalar silinmişti (404) ve İnternet Arşivi'nde sitenin kopyası yoktu; bu yüzden
+  eski görseller ancak elimizdeki asıl dosyalardan geri konabilir.
 
 ## İçeriği güncellemek
 1. İlgili `data/<sayfa>.json` dosyasını düzenle.
