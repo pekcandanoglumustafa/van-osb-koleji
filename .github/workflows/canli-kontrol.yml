@@ -1,0 +1,58 @@
+name: Canlı Site Kontrolü
+
+# Vercel canlı yayını bitirince ozelvanosbkoleji.com'u gerçek tarayıcıyla açar,
+# kırık görsel veya eski Zyro bağlantısı varsa kırmızı olur.
+on:
+  deployment_status:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  kontrol:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Tarayıcıyı kur
+        run: |
+          npm install --no-save --no-package-lock playwright@1.47.2
+          npx playwright install --with-deps chromium
+      - name: Canlı siteyi kontrol et
+        run: node .github/scripts/canli-kontrol.mjs https://ozelvanosbkoleji.com
+      - name: Ekran görüntüleri
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: canli-kontrol
+          path: canli-kontrol/
+          if-no-files-found: ignore
+
+  # Elle çalıştırıldığında: eski Zyro görsellerinin İnternet Arşivi'nde kopyası var mı?
+  arsiv:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: İnternet Arşivi'nde ara
+        run: |
+          for q in "assets.zyrosite.com/YD0Eeq404vF5okpN/*" \
+                   "assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/*" \
+                   "assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/*" \
+                   "assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/YD0Eeq404vF5okpN/*" \
+                   "ozelvanosbkoleji.com/*" "www.ozelvanosbkoleji.com/*"; do
+            res=""
+            for i in 1 2 3 4; do
+              res=$(curl -sS -4 -m 90 "https://web.archive.org/cdx/search/cdx?url=$(python3 -c 'import sys,urllib.parse;print(urllib.parse.quote(sys.argv[1],safe=""))' "$q")&fl=timestamp,original,statuscode&limit=500" 2>&1) && break
+              sleep $((i*20))
+            done
+            n=$(printf '%s\n' "$res" | grep -c 'http' || true)
+            echo "::notice title=Arşiv: $q::$n kayıt. İlk kayıtlar: $(printf '%s\n' "$res" | head -5 | tr '\n' ' ' | cut -c1-600)"
+          done
