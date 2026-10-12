@@ -249,6 +249,8 @@ def content_page(data, active):
     body = phero(data)
     if "staff_groups" in data:
         body += render_staff(data)
+        if data.get("blocks"):
+            body += render_blocks(data["blocks"])
     else:
         # optional stats strip
         if data.get("stats"):

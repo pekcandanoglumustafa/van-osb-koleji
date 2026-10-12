@@ -306,8 +306,8 @@ footer{background:#07131F;color:#93A6BC;padding:70px 0 30px;border-top:1px solid
 .staff-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin:10px 0 20px}
 .staff-card{background:#fff;border:1px solid var(--paper-2);border-radius:14px;overflow:hidden;transition:transform .3s,box-shadow .3s}
 .staff-card:hover{transform:translateY(-4px);box-shadow:0 24px 46px -28px rgba(10,27,46,.3)}
-.staff-photo{aspect-ratio:1;overflow:hidden;background:var(--ink-2)}
-.staff-photo img{width:100%;height:100%;object-fit:cover}
+.staff-photo{aspect-ratio:4/5;overflow:hidden;background:var(--ink-2)}
+.staff-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 20%}
 .staff-photo.noimg{display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--ink-2),var(--ink-3))}
 .staff-photo.noimg span{font-family:"Archivo";font-weight:800;font-size:1.8rem;color:var(--signal)}
 .staff-info{padding:14px 16px}
