@@ -15,6 +15,16 @@ Statik, çok sayfalı web sitesi (build gerektirmez). Eski ozelvanosbkoleji.com 
 - `data/*.json` — sayfa içerikleri (kaynak)
 - `build.py` — tüm HTML'i data/ ve şablondan üreten jeneratör
 
+## Görseller
+Eski Zyro sitesi (assets.zyrosite.com) artık görsel vermiyor; tüm görseller repoda duruyor:
+- `images/kadro/` — öğretmen, personel ve yönetim fotoğrafları
+- `images/site/` — logo, kapak, bölüm ve galeri görselleri. Veri dosyalarındaki eski Zyro adresleri
+  `build.py` tarafından buradaki dosyaya çevrilir (Zyro adındaki rastgele ek atılır:
+  `lab3-Awv8glR3l0S1xnwq.jpg` → `images/site/lab3.jpg`). Yerel kopyası olmayan görsel kırık
+  görünmez: galeride gizlenir, kapaklarda okul binası fotoğrafı, logoda "OSB" rozeti gösterilir.
+- `tools/fetch_zyro.py` + `.github/workflows/fetch-zyro.yml` — eski görselleri Zyro / İnternet Arşivi'nden
+  kurtarmayı deneyen tek seferlik iş (sonuç raporu: `images/site/_kaynak.json`).
+
 ## İçeriği güncellemek
 1. İlgili `data/<sayfa>.json` dosyasını düzenle.
 2. `python3 build.py` çalıştır → HTML yeniden üretilir.

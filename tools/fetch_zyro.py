@@ -14,9 +14,9 @@ import json
 import os
 import re
 import sys
-import time
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
@@ -43,7 +43,7 @@ def get(url, referer=None):
         headers["Referer"] = referer
     req = urllib.request.Request(url, headers=headers)
     try:
-        with urllib.request.urlopen(req, timeout=40) as r:
+        with urllib.request.urlopen(req, timeout=20) as r:
             data = r.read()
             return r.status, data
     except urllib.error.HTTPError as e:
@@ -101,12 +101,11 @@ def main():
     for u in urls:
         by_file.setdefault(u.split("/")[-1], set()).add(u)
 
-    report = {}
-    for fn, seen in sorted(by_file.items()):
+    def one(item):
+        fn, seen = item
         best = None
         tried = []
-        cands = candidates(fn, seen)
-        for i, (src, url, ref) in enumerate(cands):
+        for i, (src, url, ref) in enumerate(candidates(fn, seen)):
             st, data = get(url, ref)
             k = kind(data) if data else None
             tried.append(f"{src} {st} {len(data)}B {k or '-'}")
@@ -117,7 +116,6 @@ def main():
                 break
             if best and best[0] in ("weserv", "wsrv") and src == "wsrv":
                 break
-            time.sleep(0.2)
         if best is None:
             for src, url, ref in wayback_cdx(fn):
                 st, data = get(url, ref)
@@ -132,11 +130,13 @@ def main():
             path = os.path.join(dest, f"{name}.{k}")
             with open(path, "wb") as f:
                 f.write(data)
-            report[fn] = {"ok": True, "file": path, "source": src, "url": url, "bytes": len(data)}
-            print(f"OK   {fn} <- {src} ({len(data)//1024} KB)")
-        else:
-            report[fn] = {"ok": False, "tried": tried}
-            print(f"FAIL {fn}: {'; '.join(tried[:6])}")
+            print(f"OK   {fn} <- {src} ({len(data)//1024} KB)", flush=True)
+            return fn, {"ok": True, "file": path, "source": src, "url": url, "bytes": len(data)}
+        print(f"FAIL {fn}: {'; '.join(tried[:8])}", flush=True)
+        return fn, {"ok": False, "tried": tried}
+
+    with ThreadPoolExecutor(max_workers=12) as ex:
+        report = dict(ex.map(one, sorted(by_file.items())))
 
     with open(os.path.join(dest, "_kaynak.json"), "w", encoding="utf-8") as f:
         json.dump(report, f, ensure_ascii=False, indent=2)
