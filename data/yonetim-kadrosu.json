@@ -5,19 +5,65 @@
   "title": "Yönetim Kadromuz",
   "eyebrow": "Okulumuz",
   "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/resadegm-sergadegsadeg-H25wZBkkN9tIK3Id.jpg",
+  "intro": "Kurucu yönetimden okul idaresine, kurumumuzu yöneten ekibimiz.",
+  "staff_groups": [
+    {
+      "title": "Kurucu Yönetim",
+      "people": [
+        {
+          "name": "Metin Abi",
+          "role": "Kurum Kurucusu",
+          "img": "/images/kadro/metin-abi.jpg"
+        },
+        {
+          "name": "Feyat Gültepe",
+          "role": "Kurum Kurucusu · Kurucu Temsilcisi",
+          "img": "/images/kadro/feyat-gultepe.jpg"
+        },
+        {
+          "name": "Ergül Gülaç",
+          "role": "Kurum Kurucusu",
+          "img": "/images/kadro/ergul-gulac.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Kurumsal Yönetim",
+      "people": [
+        {
+          "name": "Şahabettin Şepik",
+          "role": "Eğitim Genel Koordinatörü",
+          "img": "/images/kadro/sahabettin-sepik.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Eğitim Yönetimi",
+      "people": [
+        {
+          "name": "Mehmet Tanış",
+          "role": "Okul Müdürü",
+          "img": "/images/kadro/mehmet-tanis.jpg"
+        },
+        {
+          "name": "Handan Şeker",
+          "role": "Müdür Yardımcısı",
+          "img": "/images/kadro/handan-seker.jpg"
+        },
+        {
+          "name": "Sibel Ablak",
+          "role": "Müdür Yardımcısı",
+          "img": ""
+        },
+        {
+          "name": "Zafer Aşkan",
+          "role": "Müdür Yardımcısı",
+          "img": ""
+        }
+      ]
+    }
+  ],
   "blocks": [
-    {
-      "type": "image",
-      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/YD0Eeq404vF5okpN/ekran-resmi-2025-11-19-14.48.55-8EPNecdWkqzUZSm2.png"
-    },
-    {
-      "type": "image",
-      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/YD0Eeq404vF5okpN/ekran-resmi-2025-11-19-14.53.33-lCPEiT3whlAFeWOb.png"
-    },
-    {
-      "type": "image",
-      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/YD0Eeq404vF5okpN/ekran-resmi-2025-11-19-14.55.20-GhHbS8TIU08PWlyw.png"
-    },
     {
       "type": "h2",
       "text": "Kurumun Organizasyon Şeması"

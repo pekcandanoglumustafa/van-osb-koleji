@@ -48,6 +48,22 @@ collections:
           - { label: "Sayfa Başlığı", name: "title", widget: "string" }
           - { label: "Üst Etiket", name: "eyebrow", widget: "hidden", default: "Okulumuz" }
           - { label: "Kapak Görseli", name: "hero_img", widget: "image", required: false }
+          - { label: "Giriş Metni", name: "intro", widget: "text", required: false }
+          - label: "Yönetim Grupları"
+            name: "staff_groups"
+            widget: "list"
+            required: false
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Grup Başlığı", name: "title", widget: "string" }
+              - label: "Kişiler"
+                name: "people"
+                widget: "list"
+                summary: "{{fields.name}} — {{fields.role}}"
+                fields:
+                  - { label: "Ad Soyad", name: "name", widget: "string" }
+                  - { label: "Unvan", name: "role", widget: "string" }
+                  - { label: "Fotoğraf", name: "img", widget: "image", required: false }
           - &blocks
             label: "İçerik Blokları"
             name: "blocks"
