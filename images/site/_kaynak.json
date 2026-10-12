@@ -1,24 +1,4 @@
 {
-  "": {
-    "ok": false,
-    "tried": [
-      "zyro 404 0B -",
-      "zyro-noref 404 0B -",
-      "zyro 404 0B -",
-      "zyro-noref 404 0B -",
-      "zyro 404 0B -",
-      "zyro-noref 404 0B -",
-      "weserv 404 0B -",
-      "wsrv 404 0B -",
-      "weserv 404 0B -",
-      "wsrv 404 0B -",
-      "weserv 404 0B -",
-      "wsrv 404 0B -",
-      "wayback 429 0B -",
-      "wayback 429 0B -",
-      "wayback <urlopen error [Errno 111] Connection refused> 0B -"
-    ]
-  },
   "ekran-resmi-2025-11-18-13.30.31-Y9xUbwLMDvof5pbo.png": {
     "ok": false,
     "tried": [
@@ -34,8 +14,8 @@
       "wsrv 404 0B -",
       "weserv 404 0B -",
       "wsrv 404 0B -",
-      "wayback 429 0B -",
-      "wayback 429 0B -",
+      "wayback <urlopen error [Errno 111] Connection refused> 0B -",
+      "wayback <urlopen error [Errno 111] Connection refused> 0B -",
       "wayback <urlopen error [Errno 111] Connection refused> 0B -"
     ]
   },
@@ -59,7 +39,7 @@
       "weserv 404 0B -",
       "wsrv 404 0B -",
       "wayback 429 0B -",
-      "wayback 429 0B -",
+      "wayback <urlopen error [Errno 111] Connection refused> 0B -",
       "wayback <urlopen error [Errno 111] Connection refused> 0B -",
       "wayback <urlopen error [Errno 111] Connection refused> 0B -"
     ]
@@ -81,7 +61,7 @@
       "wsrv 404 0B -",
       "wayback 429 0B -",
       "wayback <urlopen error [Errno 111] Connection refused> 0B -",
-      "wayback <urlopen error [Errno 111] Connection refused> 0B -"
+      "wayback 429 0B -"
     ]
   },
   "img-20251021-wa0013-40K07TbFFthO6pcK.jpg": {
@@ -100,7 +80,7 @@
       "weserv 404 0B -",
       "wsrv 404 0B -",
       "wayback 429 0B -",
-      "wayback <urlopen error [Errno 111] Connection refused> 0B -",
+      "wayback 429 0B -",
       "wayback <urlopen error [Errno 111] Connection refused> 0B -"
     ]
   },
@@ -120,7 +100,7 @@
       "weserv 404 0B -",
       "wsrv 404 0B -",
       "wayback 404 0B -",
-      "wayback <urlopen error [Errno 111] Connection refused> 0B -",
+      "wayback 429 0B -",
       "wayback <urlopen error [Errno 111] Connection refused> 0B -"
     ]
   },
@@ -140,7 +120,7 @@
       "weserv 404 0B -",
       "wsrv 404 0B -",
       "wayback 429 0B -",
-      "wayback 429 0B -",
+      "wayback <urlopen error [Errno 111] Connection refused> 0B -",
       "wayback <urlopen error [Errno 111] Connection refused> 0B -"
     ]
   },
@@ -159,8 +139,8 @@
       "wsrv 404 0B -",
       "weserv 404 0B -",
       "wsrv 404 0B -",
-      "wayback 429 0B -",
-      "wayback 429 0B -",
+      "wayback 404 0B -",
+      "wayback <urlopen error [Errno 111] Connection refused> 0B -",
       "wayback <urlopen error [Errno 111] Connection refused> 0B -"
     ]
   },
@@ -181,7 +161,7 @@
       "wsrv 404 0B -",
       "wayback 429 0B -",
       "wayback 429 0B -",
-      "wayback <urlopen error [Errno 111] Connection refused> 0B -"
+      "wayback 429 0B -"
     ]
   },
   "img-20251101-wa0031-fcr4ZSWTf67IKErc.jpg": {
@@ -200,7 +180,7 @@
       "weserv 404 0B -",
       "wsrv 404 0B -",
       "wayback 429 0B -",
-      "wayback 429 0B -",
+      "wayback <urlopen error [Errno 111] Connection refused> 0B -",
       "wayback <urlopen error [Errno 111] Connection refused> 0B -"
     ]
   },
@@ -263,7 +243,7 @@
       "wsrv 404 0B -",
       "weserv 404 0B -",
       "wsrv 404 0B -",
-      "wayback <urlopen error [Errno 111] Connection refused> 0B -",
+      "wayback 429 0B -",
       "wayback <urlopen error [Errno 111] Connection refused> 0B -",
       "wayback <urlopen error [Errno 111] Connection refused> 0B -",
       "wayback <urlopen error [Errno 111] Connection refused> 0B -"
@@ -1121,7 +1101,7 @@
       "wsrv 404 0B -",
       "wayback <urlopen error [Errno 111] Connection refused> 0B -",
       "wayback <urlopen error [Errno 111] Connection refused> 0B -",
-      "wayback <urlopen error timed out> 0B -"
+      "wayback <urlopen error [Errno 111] Connection refused> 0B -"
     ]
   },
   "whatsapp-image-2025-11-18-at-15.06.40-UyqITqKxlGCZNpUU.jpeg": {

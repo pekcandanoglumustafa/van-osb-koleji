@@ -1,0 +1,73 @@
+== -4 https://web.archive.org/
+200 145189B
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wayback Machine</title>
+    <script>
+    /*
+    @licstart  The following is the entire license notice for the JavaScript code in this page.
+
+    Copyright (C) 2020 Internet Archive
+
+    The JavaScript code in this page is free software: you can
+  
+== -6 https://web.archive.org/
+curl: (6) Could not resolve host: web.archive.org
+000 0B
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wayback Machine</title>
+    <script>
+    /*
+    @licstart  The following is the entire license notice for the JavaScript code in this page.
+
+    Copyright (C) 2020 Internet Archive
+
+    The JavaScript code in this page is free software: you can
+  
+== -4 https://archive.org/wayback/available?url=ozelvanosbkoleji.com
+200 57B
+{"url": "ozelvanosbkoleji.com", "archived_snapshots": {}}
+== -6 https://archive.org/wayback/available?url=ozelvanosbkoleji.com
+curl: (6) Could not resolve host: archive.org
+000 0B
+{"url": "ozelvanosbkoleji.com", "archived_snapshots": {}}
+== -4 https://web.archive.org/cdx/search/cdx?url=assets.zyrosite.com/*&filter=original:.*YD0Eeq404vF5okpN.*&limit=5
+curl: (28) Operation timed out after 25002 milliseconds with 0 bytes received
+000 0B
+{"url": "ozelvanosbkoleji.com", "archived_snapshots": {}}
+== -6 https://web.archive.org/cdx/search/cdx?url=assets.zyrosite.com/*&filter=original:.*YD0Eeq404vF5okpN.*&limit=5
+curl: (6) Could not resolve host: web.archive.org
+000 0B
+{"url": "ozelvanosbkoleji.com", "archived_snapshots": {}}
+== -4 https://web.archive.org/web/2025/https://ozelvanosbkoleji.com/
+404 4602B
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wayback Machine</title>
+    <script>
+    /*
+    @licstart  The following is the entire license notice for the JavaScript code in this page.
+
+    Copyright (C) 2020 Internet Archive
+
+    The JavaScript code in this page is free software: you can
+  
+== -6 https://web.archive.org/web/2025/https://ozelvanosbkoleji.com/
+curl: (6) Could not resolve host: web.archive.org
+000 0B
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wayback Machine</title>
+    <script>
+    /*
+    @licstart  The following is the entire license notice for the JavaScript code in this page.
+
+    Copyright (C) 2020 Internet Archive
+
+    The JavaScript code in this page is free software: you can
+  
