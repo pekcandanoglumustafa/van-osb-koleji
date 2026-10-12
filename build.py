@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import json, os, html
+import json, os, html, urllib.parse
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "data")
@@ -62,14 +62,82 @@ CHECK = '<svg viewBox="0 0 24 24" stroke-width="2"><path d="M20 6L9 17l-5-5"/></
 CHEV = '<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>'
 
 import re
-import urllib.parse as _urlp
-def proxify(html):
-    # Tum assets.zyrosite.com gorsellerini images.weserv.nl uzerinden servis et
-    # (hotlink korumasini asar; gorsel dosyasi gerekmez)
-    import re as _re, urllib.parse as _up
-    return _re.sub(r"https://assets\.zyrosite\.com/[^\"'\s>]+",
-                   lambda m: "https://images.weserv.nl/?url=" + _up.quote(m.group(0), safe=""),
-                   html)
+
+# ---- GORSELLER ----
+# Eski Zyro sitesi (assets.zyrosite.com) artik gorsel vermiyor. Her Zyro adresi
+# images/site/ altindaki yerel kopyasina cevrilir. Dosya adi, Zyro adindaki
+# rastgele 16 karakterlik ek atilarak bulunur:
+#   .../YD0Eeq404vF5okpN/lab3-Awv8glR3l0S1xnwq.jpg  ->  /images/site/lab3.jpg
+# Yerel kopyasi olmayan gorsel kirik gorunmesin diye: galeri/icerik gorselleri
+# gizlenir, kapak ve kart arka planlarinda okul binasi fotografi kullanilir,
+# logo yerine yazili rozet gosterilir.
+SITE_IMG = os.path.join(ROOT, "images", "site")
+ZYRO_RE = re.compile(r"https://assets\.zyrosite\.com/[^\"'\s>)]+")
+FALLBACKS = ["/images/site/okul-binasi-2.jpg", "/images/site/okul-binasi-1.jpg"]
+LOGO_MARK = '<span class="brand-mark" aria-label="Van OSB Koleji logo">OSB</span>'
+PENDING = '<div class="pr-note">Bu bölümün fotoğrafları yakında yeniden eklenecek.</div>'
+
+IMG_EXTS = (".jpg", ".jpeg", ".png", ".webp", ".gif", ".avif", ".svg")
+# Zyro adi -> elimizdeki dosyanin baska olasi adi
+ALIASES = {"osb-1": ["logo"]}
+
+def _key(stem):
+    # Zyro dosya adlarini kucuk harf ve tireyle yaziyordu:
+    # "WhatsApp Image 2025-11-18 at 15.03.06" -> "whatsapp-image-2025-11-18-at-15.03.06"
+    return re.sub(r"[^a-z0-9.]+", "-", stem.lower()).strip("-")
+
+_IMG_CACHE = None
+def _site_images():
+    # images/ (panelden yuklenenler) ve images/site/ taranir; ayni ad varsa images/site/ kazanir
+    global _IMG_CACHE
+    if _IMG_CACHE is None:
+        _IMG_CACHE = {}
+        for folder, public in ((os.path.join(ROOT, "images"), "/images/"), (SITE_IMG, "/images/site/")):
+            if not os.path.isdir(folder):
+                continue
+            for fn in sorted(os.listdir(folder)):
+                stem, ext = os.path.splitext(fn)
+                if ext.lower() in IMG_EXTS and os.path.isfile(os.path.join(folder, fn)):
+                    _IMG_CACHE[_key(stem)] = public + urllib.parse.quote(fn)
+    return _IMG_CACHE
+
+def local_img(url):
+    """Zyro adresinin yerel karsiligi; yoksa None. Zyro disi adresler aynen doner."""
+    if not ZYRO_RE.fullmatch(url):
+        return url
+    stem = os.path.splitext(url.rsplit("/", 1)[-1])[0]
+    stem = _key(re.sub(r"-[A-Za-z0-9]{16}$", "", stem))
+    imgs = _site_images()
+    for k in [stem] + ALIASES.get(stem, []):
+        if k in imgs:
+            return imgs[k]
+    return None
+
+def localize(page):
+    missing = lambda u: ZYRO_RE.fullmatch(u) and not local_img(u)
+    # logo
+    page = re.sub(r'<img src="([^"]+)" alt="(?:Van OSB Koleji )?logo"[^>]*/?>',
+                  lambda m: LOGO_MARK if missing(m.group(1)) else m.group(0), page)
+    # galeri ve icerik gorselleri: yerel kopyasi yoksa gosterme, yerine not koy
+    page = re.sub(r'<a href="([^"]+)" target="_blank" rel="noopener"><img loading="lazy" src="[^"]+" alt=""/></a>',
+                  lambda m: "" if missing(m.group(1)) else m.group(0), page)
+    page = re.sub(r'<figure class="pr-img"><img loading="lazy" src="([^"]+)" alt=""/></figure>',
+                  lambda m: PENDING if missing(m.group(1)) else m.group(0), page)
+    page = re.sub(r'<div class="pr-gallery[^"]*"></div>', PENDING, page)
+    page = re.sub(f'(?:{re.escape(PENDING)})+', PENDING, page)
+    # yedek fotograf konacak gorsellerin aciklamasi artik dogru degil
+    page = re.sub(r'(<img[^>]*?\bsrc="([^"]+)"[^>]*?\balt=")([^"]+)(")',
+                  lambda m: m.group(1) + "Van OSB Koleji okul binası" + m.group(4) if missing(m.group(2)) else m.group(0),
+                  page)
+    # kalanlar (kapaklar, bolum kartlari, anasayfa gorseli): yedek okul fotografi
+    n = [0]
+    def repl(m):
+        loc = local_img(m.group(0))
+        if loc:
+            return loc
+        n[0] += 1
+        return FALLBACKS[(n[0] - 1) % len(FALLBACKS)]
+    return ZYRO_RE.sub(repl, page)
 
 
 def esc(s):
@@ -406,7 +474,8 @@ def galeri_page():
         "ogrenci2-m7VDQRa7D1uq0vRD.jpg","resadegm-sergadegsadeg-H25wZBkkN9tIK3Id.jpg",
     ]
     base = "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/"
-    grid = "".join(f'<a href="{base}{u}" target="_blank" rel="noopener"><img loading="lazy" src="{base}{u}" alt=""/></a>' for u in imgs)
+    urls = [base + u for u in imgs if local_img(base + u)] or FALLBACKS
+    grid = "".join(f'<a href="{u}" target="_blank" rel="noopener"><img loading="lazy" src="{u}" alt=""/></a>' for u in urls)
     subcards = ('<div class="ov-grid" style="margin-top:40px">'
                 f'<a href="etkinliklerimiz.html" class="ov-card reveal"><span class="ov-n">01</span><h3>Etkinliklerimiz</h3><span class="ov-go">İncele {ARROW}</span></a>'
                 f'<a href="okulumuzdan-kareler.html" class="ov-card reveal"><span class="ov-n">02</span><h3>Okulumuzdan Kareler</h3><span class="ov-go">İncele {ARROW}</span></a>'
@@ -466,20 +535,20 @@ def main():
         slug = data["slug"]
         active = slug_to_active.get(slug, SECTION_KEY.get(data.get("section"), ""))
         htmlpage = content_page(data, active)
-        open(os.path.join(ROOT, slug + ".html"), "w", encoding="utf-8").write(proxify(htmlpage))
+        open(os.path.join(ROOT, slug + ".html"), "w", encoding="utf-8").write(localize(htmlpage))
 
     # overview landing pages
     for key in ["okulumuz", "egitim", "projeler", "duyurular"]:
         it = get_item(key)
         intro, hero = OVERVIEW_INTRO[key]
-        open(os.path.join(ROOT, it["href"]), "w", encoding="utf-8").write(proxify(overview_page(it, intro, hero)))
+        open(os.path.join(ROOT, it["href"]), "w", encoding="utf-8").write(localize(overview_page(it, intro, hero)))
 
     # special pages
-    open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(proxify(home_page()))
-    open(os.path.join(ROOT, "bolumler.html"), "w", encoding="utf-8").write(proxify(bolumler_page()))
-    open(os.path.join(ROOT, "galeri.html"), "w", encoding="utf-8").write(proxify(galeri_page()))
-    open(os.path.join(ROOT, "iletisim.html"), "w", encoding="utf-8").write(proxify(iletisim_page()))
-    open(os.path.join(ROOT, "404.html"), "w", encoding="utf-8").write(proxify(not_found()))
+    open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(localize(home_page()))
+    open(os.path.join(ROOT, "bolumler.html"), "w", encoding="utf-8").write(localize(bolumler_page()))
+    open(os.path.join(ROOT, "galeri.html"), "w", encoding="utf-8").write(localize(galeri_page()))
+    open(os.path.join(ROOT, "iletisim.html"), "w", encoding="utf-8").write(localize(iletisim_page()))
+    open(os.path.join(ROOT, "404.html"), "w", encoding="utf-8").write(localize(not_found()))
 
     print("all pages generated")
 

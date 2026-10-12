@@ -24,6 +24,7 @@ header.scrolled,header.solid{background:rgba(10,27,46,.92);backdrop-filter:blur(
 .nav{display:flex;align-items:center;justify-content:space-between;height:74px}
 .brand{display:flex;align-items:center;gap:13px;color:#fff}
 .brand img{height:44px;width:auto;filter:drop-shadow(0 2px 8px rgba(0,0,0,.4))}
+.brand-mark{width:44px;height:44px;flex:none;display:flex;align-items:center;justify-content:center;border:2px solid var(--signal);border-radius:10px;font-family:"Archivo";font-weight:900;font-size:13px;letter-spacing:.04em;color:#fff;background:rgba(255,255,255,.06)}
 .brand-txt{display:flex;flex-direction:column;line-height:1}
 .brand-txt b{font-family:"Archivo";font-weight:800;font-size:15px;letter-spacing:-.01em}
 .brand-txt span{font-family:"IBM Plex Mono";font-size:9.5px;letter-spacing:.18em;color:var(--signal);margin-top:4px}
