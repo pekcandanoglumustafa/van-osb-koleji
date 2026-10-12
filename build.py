@@ -474,7 +474,10 @@ def galeri_page():
         "ogrenci2-m7VDQRa7D1uq0vRD.jpg","resadegm-sergadegsadeg-H25wZBkkN9tIK3Id.jpg",
     ]
     base = "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/YD0Eeq404vF5okpN/"
-    urls = [base + u for u in imgs if local_img(base + u)] or FALLBACKS
+    extra = ["kadro-toplu.jpg", "basari-odul-toreni.jpg", "etkinlik-okul-onu-3.jpg", "bilisim-lab-meslekler.jpg",
+             "kimya-sabun.jpg", "basari-masa-tenisi-turkiye-1.jpg"]
+    urls = ([base + u for u in imgs if local_img(base + u)]
+            + ["/images/site/" + u for u in extra if os.path.exists(os.path.join(SITE_IMG, u))]) or FALLBACKS
     grid = "".join(f'<a href="{u}" target="_blank" rel="noopener"><img loading="lazy" src="{u}" alt=""/></a>' for u in urls)
     subcards = ('<div class="ov-grid" style="margin-top:40px">'
                 f'<a href="etkinliklerimiz.html" class="ov-card reveal"><span class="ov-n">01</span><h3>Etkinliklerimiz</h3><span class="ov-go">İncele {ARROW}</span></a>'
