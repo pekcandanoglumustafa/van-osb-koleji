@@ -1,0 +1,37 @@
+name: Eski Görselleri Kurtar
+
+# Eski Zyro sitesindeki görselleri (logo, kapak, bölüm, galeri) indirip
+# images/site/ altına kaydeder. Tek seferlik kurtarma işi içindir.
+on:
+  push:
+    branches: ['claude/**']
+    paths:
+      - 'tools/zyro-urls.txt'
+      - 'tools/fetch_zyro.py'
+      - '.github/workflows/fetch-zyro.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Görselleri indir
+        run: python3 tools/fetch_zyro.py tools/zyro-urls.txt images/site
+      - name: Commit'le
+        run: |
+          git config user.name "vanosb-content-bot"
+          git config user.email "bot@ozelvanosbkoleji.com"
+          git add images/site
+          if git diff --staged --quiet; then
+            echo "Değişiklik yok."
+          else
+            git commit -m "görseller: eski Zyro görselleri kurtarıldı [auto]"
+            git push
+          fi
