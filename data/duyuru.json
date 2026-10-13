@@ -7,6 +7,30 @@
   "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/resadegm-sergadegsadeg-H25wZBkkN9tIK3Id.jpg",
   "blocks": [
     {
+      "type": "h2",
+      "text": "9, 10 ve 11. Sınıflar İçin Nakil Dönemi Devam Ediyor"
+    },
+    {
+      "type": "p",
+      "text": "Bilişim Teknolojileri, Elektrik-Elektronik Teknolojisi, Kimya Teknolojisi ve Gıda Teknolojisi alanlarımıza nakil ve kayıtlarımız devam ediyor. Bilgi için 0555 076 24 22 veya 0 (530) 244 05 65 numaralı telefonlardan bize ulaşabilirsiniz."
+    },
+    {
+      "type": "gallery",
+      "items": [
+        "/images/site/duyuru-nakil-donemi.jpg",
+        "/images/site/duyuru-nakil-donemi-2.jpg",
+        "/images/site/duyuru-kayitlar-devam.jpg"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "2026-2027 Eğitim Öğretim Yılı Başladı"
+    },
+    {
+      "type": "image",
+      "src": "/images/site/duyuru-2026-2027-egitim-yili.jpg"
+    },
+    {
       "type": "image",
       "src": "/images/WEB SİTE 1.PNG"
     },
