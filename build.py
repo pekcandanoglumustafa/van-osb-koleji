@@ -202,7 +202,8 @@ def footer():
 FOOT_SCRIPTS = '<script src="app.js"></script></body></html>'
 
 def phero(data):
-    img = data.get("hero_img", "")
+    # panelde kapak alani bosaltilirsa kirik <img src=""> yerine okul binasi
+    img = data.get("hero_img") or FALLBACKS[0]
     crumb = f'<a href="index.html">Anasayfa</a>'
     sec = data.get("section")
     if sec:
