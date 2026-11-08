@@ -4,11 +4,11 @@
   "menu_title": "Kimya Teknolojisi",
   "title": "Kimya Teknolojisi Bölümü",
   "eyebrow": "Bölümler · KT-03",
-  "hero_img": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0Eeq404vF5okpN/labsiyah-YD0EQRWPP7TZwXgB.jpg",
+  "hero_img": "/images/site/labsiyah.jpg",
   "blocks": [
     {
       "type": "image",
-      "src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,fit=crop/YD0Eeq404vF5okpN/whatsapp-image-2025-11-18-at-15.03.11-9TYjnn4Lc1o1INCl.jpeg"
+      "src": "/images/site/whatsapp-image-2025-11-18-at-15.03.11.jpg"
     },
     {
       "type": "p",
